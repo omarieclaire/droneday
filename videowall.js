@@ -31,7 +31,7 @@ HttpVideos.addEventListener("load", function() {
     for (var i = 0; i < video_keys.length ; i++) {
       var key = video_keys[i];
 
-      var str = '<div style="padding-top: 100%; position: relative; overflow: hidden;"><iframe frameborder="0" allowfullscreen="" src="https://onelineplayer.com/player.html?autoplay=false&loop=false&autopause=true&muted=false&url=https%3A%2F%2Fdrive.google.com%2Fuc%3Fauthuser%3D0%26id%3D' + key + '%26export%3Ddownload&poster=null&time=true&progressBar=true&playButton=true&overlay=true&muteButton=true&fullscreenButton=true&style=light&logo=false&quality=720p" style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px;"></iframe></div>';
+      var str = '<div style="padding-top: 100%; position: relative; overflow: hidden;"><iframe frameborder="0" allowfullscreen="" src="https://onelineplayer.com/player.html?autoplay=false&loop=false&autopause=true&muted=false&url=https%3A%2F%2Fdrive.google.com%2Fuc%3Fauthuser%3D0%26id%3D' + key + '%26export%3Ddownload&time=true&progressBar=true&playButton=true&overlay=true&muteButton=true&fullscreenButton=true&style=light&logo=false&quality=720p" style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px;"></iframe></div>';
 
       video_string = video_string + str;
     }

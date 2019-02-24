@@ -32,7 +32,7 @@ body {
 .content {
   height: 200vh;
   /* background-image: url(//unsplash.it/1000/1000); */
-  background-color: #FFF;
+  /* background-color: #FFFF; */
   background-blend-mode: multiply;
   background-size: cover;
   display: grid;
@@ -118,7 +118,7 @@ h1 {
 h2 {
 	font-weight: 400;
 	font-size: 1.4rem;
-  color: #cecece;
+  /* color: #cecece; */
   line-height: 38px;
 	margin-top: 2em;
   margin-bottom: .25em;
@@ -371,7 +371,8 @@ nav a:hover {
   }
 
   nav {
-    // all: unset; /* this causes issues with Edge, since it's unsupported */
+   /* this causes issues with Edge, since it's unsupported */
+    /* // all: unset;  */
 
     /* the following lines are not from my video, but add Edge support */
     position: relative;
@@ -656,8 +657,25 @@ body {
 =================== */
 
 footer {
-	background: #232323;
-	color: #fff;
-	text-align: left;
-	padding: 5em 0;
+  padding: 1em;
+  background-color: rgba(86, 86, 86, .15);
+  text-align: center;
+  /* position: fixed; */
+  z-index: 999;
+  width: 100%;
+}
+
+.feather {
+  width: 24px;
+  height: 24px;
+  margin-left: .75em;
+  margin-right: .75em;
+  margin-top: .75em;
+  margin-bottom: .75em;
+  opacity: 0.3;
+
+}
+
+.feather:hover {
+  opacity: 0.7;
 }

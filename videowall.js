@@ -9,7 +9,7 @@ var video_keys = [];
 var CLIENT_ID = 'common-d2ecf';
 var api_key = 'AIzaSyALlQNEoMXQtNqq4v1S61ZiBg98NScwt6I';
 
-var folderId = '1uDSd4nvFzlcstRy2xQ_SRbrO1czS5mGv';
+var folderId = '1XhIstw-3Y_RYhNQV_29CxRCiFuFDrSLL';
 var url = "https://www.googleapis.com/drive/v3/files?q='" + folderId + "'+in+parents&fields=files(id%2CmimeType%2CwebContentLink)&key=" + api_key;
 
 
@@ -22,17 +22,9 @@ HttpVideos.addEventListener("load", function() {
     var allImages = '';
     var files = json.files;
     for (var i in files) {
-
       var file = files[i];
-
       video_keys.push(file.id);
-
-
-
-
     }
-
-    document.getElementById('photos').innerHTML = allImages;
   }
 });
 HttpVideos.open("GET", url);
@@ -41,8 +33,6 @@ HttpVideos.send();
 
 console.log("the video keys are:");
 console.log(video_keys);
-
-
 
 var video_string = "";
 

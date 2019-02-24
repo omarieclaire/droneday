@@ -25,31 +25,28 @@ HttpVideos.addEventListener("load", function() {
       var file = files[i];
       video_keys.push(file.id);
     }
+
+    var video_string = "";
+
+    for (var i = 0; i < video_keys.length ; i++) {
+      var key = video_keys[i];
+
+      console.log("THE KEY IS: " + key);
+
+      var str = '<div style="padding-top: 100%; position: relative; overflow: hidden;"><iframe frameborder="0" allowfullscreen="" src="https://onelineplayer.com/player.html?autoplay=false&loop=false&autopause=true&muted=false&url=https%3A%2F%2Fdrive.google.com%2Fuc%3Fauthuser%3D0%26id%3D1' + key + '%26export%3Ddownload&poster=https%3A%2F%2Fdrive.google.com%2Fuc%3Fauthuser%3D0%26id%3D12mevRICYGIoF0VWG2UktLpKZJUIkebAT%26export%3Ddownload&time=true&progressBar=true&playButton=true&overlay=true&muteButton=true&fullscreenButton=true&style=light&logo=false&quality=720p" style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px;"></iframe></div>';
+
+      video_string = video_string + str;
+
+      console.log("current video_string = " + video_string);
+    }
+
+    var div_element = document.getElementById("videos");
+
+    console.log(video_string);
+    console.log(div_element);
+    div_element.innerHTML = video_string;
+
   }
 });
 HttpVideos.open("GET", url);
 HttpVideos.send();
-
-
-console.log("the video keys are:");
-console.log(video_keys);
-
-var video_string = "";
-
-for (var i = 0; i < video_keys.length ; i++) {
-  var key = video_keys[i];
-
-  console.log("THE KEY IS: " + key);
-
-  var str = '<div style="padding-top: 100%; position: relative; overflow: hidden;"><iframe frameborder="0" allowfullscreen="" src="https://onelineplayer.com/player.html?autoplay=false&loop=false&autopause=true&muted=false&url=https%3A%2F%2Fdrive.google.com%2Fuc%3Fauthuser%3D0%26id%3D1' + key + '%26export%3Ddownload&poster=https%3A%2F%2Fdrive.google.com%2Fuc%3Fauthuser%3D0%26id%3D12mevRICYGIoF0VWG2UktLpKZJUIkebAT%26export%3Ddownload&time=true&progressBar=true&playButton=true&overlay=true&muteButton=true&fullscreenButton=true&style=light&logo=false&quality=720p" style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px;"></iframe></div>';
-
-  video_string = video_string + str;
-
-  console.log("current video_string = " + video_string);
-}
-
-var div_element = document.getElementById("videos");
-
-console.log(video_string);
-console.log(div_element);
-div_element.innerHTML = video_string;

@@ -28,6 +28,39 @@ body {
 	font-weight: 400;
 }
 
+/* Press release formatting */
+
+.pullquote {
+	margin: 1em .8em 1em .8em;
+  font-style: italic;
+	/* background: #222; */
+  /* font-family: 'Source Sans Pro', sans-serif; */
+	/* text-align: center; */
+	font-weight: 400;
+}
+
+.prlist {
+  margin: .5em 0em .5em 0em;
+  font-weight: 400;
+}
+
+.smem {
+  font-weight: 600;
+  font-style: normal;
+}
+
+.presshead {
+  margin: 1em 0em .5em 0em;
+  font-size: 1.5rem;
+  font-weight: 600;
+
+}
+
+.presssubhead {
+  margin: .2em 0em 1em 0em;
+  font-style: italic;
+}
+
 /* fron the new tut */
 .content {
   height: 200vh;

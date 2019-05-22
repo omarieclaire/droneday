@@ -212,6 +212,10 @@ p:last-of-type {
 		line-height: 1.6;
 	}
 
+  ul {
+    font-size: 1.1rem;
+  }
+
 	.title {
 		font-size: 3.7rem;
 	}

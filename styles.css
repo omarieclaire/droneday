@@ -61,6 +61,10 @@ body {
   font-style: italic;
 }
 
+.caption {
+  text-align: right;
+}
+
 /* fron the new tut */
 .content {
   height: 200vh;

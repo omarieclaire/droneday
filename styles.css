@@ -292,13 +292,6 @@ p:last-of-type {
 	color: #bfc9c3;
 }
 
-.button-form:hover,
-.button-form:focus {
-	background: #232323;
-	color: #bfc9c3;
-}
-
-
 /* header
 =================== */
 
@@ -768,8 +761,18 @@ form * {
 }
 
 .button-form {
+  background-color: #e7e7e7;
   color: #232323;
-      border-color: #232323;
+  border-color: #232323;
+}
+
+.button-form:hover,
+.button-form:focus {
+	background: #232323;
+	color: #bfc9c3;
+  border-color: magenta;
+
+
 }
 
 input:focus,

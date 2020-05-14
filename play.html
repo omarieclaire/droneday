@@ -7,17 +7,31 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Play</title>
 	<link href="styles.css" rel="stylesheet" type="text/css">
-	<script src ="js/play.js"></script>
+	<script src ="play.js"></script>
+	<script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
+
 
 
 </head>
+<!--
 
-<body>
+<button type="button" onclick="revealMessage()"	>Click here</button>
+<p id="hiddenMessage" style="display:none">Surprise</p> -->
 
-<button type="button">Click here</button>
-<p id="hiddenMessage" style="display:none">Surprise</p>
+
+<body onload="init();">
+  <canvas id="demoCanvas" width="500" height="300"></canvas>
 </body>
 
+<script>
+  function init() {
+    // code here.
+  }
+</script>
+
+
+
+</body>
 
 
 </html>

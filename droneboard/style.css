@@ -9,37 +9,27 @@ body {
 }
 
 .app {
-  /* min-height: 100vh; */
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
 }
 
-header {
-  position: absolute;
-}
-
 header h1 {
-  /* margin-bottom: 5%; */
+  margin-bottom: 5%;
   text-align: center;
-  font-size: 5rem;
+  font-size: 6rem;
 }
-
 header p {
   font-size: 25px;
-  position: absolute;
-
 }
 
 .pads {
   background: none;
   /* width: 100%; */
   display: flex;
-  margin-top:28%;
-
 }
-
 .pads > div {
   height: 2rem;
   width: 2rem;

@@ -17,9 +17,9 @@ body {
 }
 
 header h1 {
-  margin-bottom: 5%;
+  margin-top: 3rem;
   text-align: center;
-  font-size: 6rem;
+  font-size: 3rem;
 }
 header p {
   font-size: 25px;
@@ -29,18 +29,25 @@ header p {
   background: none;
   /* width: 100%; */
   display: flex;
+  position: absolute;
+  margin-top: 45.8vh;
 }
+
+/* select all the divs inside the pads */
 .pads > div {
   height: 2rem;
   width: 2rem;
-  flex: 1;
+  /* flex: 1; */
   margin: .25rem;
   border-radius: 100%;
+  /* position: absolute; */
+
 }
 
 .visual > div {
   position: absolute;
-  bottom: 0%;
+  /* start the bottom at o */
+  bottom: 50%;
   height: 2rem;
   width: 2rem;
   border-radius: 50%;
@@ -50,29 +57,29 @@ header p {
 
 @keyframes jump {
   0% {
-    bottom: 0%;
-    left: 20%;
+    bottom: -5%;
+    left: -5%;
   }
 
   25% {
-    bottom: 20%;
-    left: 48%;
+    bottom: 50%;
+    left: 50%;
   }
 
 
   50% {
-    bottom: 50%;
-    left: 48%;
+    bottom: 30%;
+    left: 50%;
   }
 
 
   75% {
-    bottom: 20%;
-    left: 48%;
+    bottom: 50%;
+    left: 50%;
   }
 
   100% {
-    bottom: 0%;
-    left: 80%;
+    bottom: -5%;
+    left: 105%;
   }
 }

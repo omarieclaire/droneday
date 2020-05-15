@@ -1,3 +1,5 @@
+
+//after the content is loaded, the code will run
 window.addEventListener("load", () => {
   const sounds = document.querySelectorAll(".sound");
   const pads = document.querySelectorAll(".pads div");
@@ -29,8 +31,11 @@ window.addEventListener("load", () => {
   pads.forEach((pad, index) => {
     pad.style.backgroundColor = colors[index];
     pad.addEventListener("click", () => {
+      // reset the time so sounds can play more than once?
+sounds[index].playbackRate = 0.5;
       sounds[index].currentTime = 0;
       sounds[index].play();
+
       createBubble(index);
     });
   });

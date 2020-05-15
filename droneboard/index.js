@@ -32,7 +32,7 @@ window.addEventListener("load", () => {
     pad.style.backgroundColor = colors[index];
     pad.addEventListener("click", () => {
       // reset the time so sounds can play more than once?
-sounds[index].playbackRate = 0.5;
+sounds[index].playbackRate = 0.3;
       sounds[index].currentTime = 0;
       sounds[index].play();
 

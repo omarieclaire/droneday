@@ -58,7 +58,7 @@ body {
   z-index: -1;
 }
 
-/* @keyframes jump {
+/* @keyframes drone {
   0% {
     bottom: -5%;
     left: -5%;
@@ -87,13 +87,13 @@ body {
   }
 } */
 
-@keyframes jump {
+@keyframes spiral {
   from {
     transform: rotate(1deg) translate(85vh) rotate(-120deg);
   }
 
   to {
-    transform: rotate(1680deg) translate(0, 10vh) rotate(-80deg);
+    transform: rotate(1680deg) translate(0) rotate(-80deg);
     opacity: .5;
     height: 0rem;
     width: 0rem;

@@ -32,24 +32,26 @@ window.addEventListener("load", () => {
   pads.forEach((pad, index) => {
     pad.style.backgroundColor = colors[index];
     pad.addEventListener("click", () => {
-      // reset the time so sounds can play more than once?
+      // reset the time so sounds can play more than once
       sounds[index].playbackRate = 0.3;
       sounds[index].currentTime = 0;
       sounds[index].play();
 
-      createBubble(index);
+      createchild(index);
     });
   });
 
-  const createBubble = index => {    //Create bubbles
-    const bubble = document.createElement("div");
-    visual.appendChild(bubble);
-    bubble.style.backgroundColor = colors[index];
+  const createchild = index => {    //Create child
+    const child = document.createElement("div");
+
+    visual.appendChild(child);
+    child.style.backgroundColor = colors[index];
     title.style.color = colors[index];
 
-    bubble.style.animation = `jump 15s ease`;
-    bubble.addEventListener("animationend", function() {
+    child.style.animation = `spiral 15s ease`;
+    child.addEventListener("animationend", function() {
       visual.removeChild(this);
+
     });
   };
 });

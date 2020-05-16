@@ -1,6 +1,7 @@
 
 //after the content is loaded, the code will run
 window.addEventListener("load", () => {
+  const title = document.querySelector(".title")
   const sounds = document.querySelectorAll(".sound");
   const pads = document.querySelectorAll(".pads div");
   const visual = document.querySelector(".visual");
@@ -32,7 +33,7 @@ window.addEventListener("load", () => {
     pad.style.backgroundColor = colors[index];
     pad.addEventListener("click", () => {
       // reset the time so sounds can play more than once?
-sounds[index].playbackRate = 0.3;
+      sounds[index].playbackRate = 0.3;
       sounds[index].currentTime = 0;
       sounds[index].play();
 
@@ -40,11 +41,12 @@ sounds[index].playbackRate = 0.3;
     });
   });
 
-  const createBubble = index => {
-    //Create bubbles
+  const createBubble = index => {    //Create bubbles
     const bubble = document.createElement("div");
     visual.appendChild(bubble);
     bubble.style.backgroundColor = colors[index];
+    title.style.color = colors[index];
+
     bubble.style.animation = `jump 7s ease`;
     bubble.addEventListener("animationend", function() {
       visual.removeChild(this);

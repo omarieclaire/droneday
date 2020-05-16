@@ -12,7 +12,7 @@ body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
 }
 
@@ -26,27 +26,31 @@ body {
   background: none;
   /* width: 100%; */
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* flex-grow: 1; */
   position: absolute;
   margin-top: 45.8vh;
+  justify-content: space-evenly;
 }
 
 /* select all the divs inside the pads */
-.pads > div {
-  height: 2rem;
-  width: 2rem;
+.pads>div {
+  height: 10vh;
+  width: 10vh;
   /* flex: 1; */
   margin: .25rem;
   border-radius: 100%;
+  outline-offset: -1rem;
   /* position: absolute; */
-
 }
 
-.visual > div {
+.visual>div {
   position: absolute;
   /* start the bottom at o */
   bottom: 50%;
-  height: 2rem;
-  width: 2rem;
+  height: 10rem;
+  width: 10rem;
   border-radius: 50%;
   transform: scale(1);
   z-index: -1;
@@ -82,16 +86,14 @@ body {
 } */
 
 @keyframes jump {
+  from {
+    transform: rotate(1deg) translate(750px) rotate(-120deg);
+  }
 
-from {
-		transform: rotate(120deg)
-		           translate(450px)
-		           rotate(-120deg);
-	}
-	to {
-		transform: rotate(680deg)
-		           translate(0px)
-		           rotate(-480deg);
-	}
-
+  to {
+    transform: rotate(680deg) translate(-10px) rotate(-80deg);
+    opacity: .5;
+    height: 0rem;
+    width: 0rem;
+  }
 }

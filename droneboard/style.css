@@ -17,9 +17,11 @@ body {
 }
 
 .title {
-  margin-top: 2rem;
+  margin-top: 20vh;
   text-align: center;
-  font-size: 4rem;
+  font-size: 10vw;
+  z-index: 99;
+
 }
 
 .pads {
@@ -87,11 +89,11 @@ body {
 
 @keyframes jump {
   from {
-    transform: rotate(1deg) translate(750px) rotate(-120deg);
+    transform: rotate(1deg) translate(85vh) rotate(-120deg);
   }
 
   to {
-    transform: rotate(680deg) translate(-10px) rotate(-80deg);
+    transform: rotate(1680deg) translate(0, 10vh) rotate(-80deg);
     opacity: .5;
     height: 0rem;
     width: 0rem;

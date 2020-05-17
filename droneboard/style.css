@@ -94,15 +94,17 @@ body {
 
 .visual>div {
   position: absolute;
-  background-image: url(img.jpg);
+  /* background-image: url(img.jpg); */
   background-size: cover;
   /* start the bottom at 0 */
   bottom: 50%;
   height: 20vh;
   width: 20vh;
   border-radius: 50%;
+
   transform: scale(1);
   z-index: -1;
+  /* border: solid red 2px; */
 }
 
 .visual>div::before {
@@ -146,16 +148,14 @@ body {
 } */
 @keyframes spiral {
   from {
-    /* transform: rotate(1deg) translate(85vh) rotate(-120deg); */
-    transform: rotate(1deg) translate(-85vh) rotate(-120deg);
+    transform: rotate(1deg) translate(85vh) rotate(-120deg);
   }
 
   to {
-    /* transform: rotate(1deg) translate(50vh) rotate(-120deg); */
-    transform: rotate(1deg) translate(0) rotate(-80deg);
-    /* opacity: .5;
+    transform: rotate(1680deg) translate(0) rotate(-80deg);
+    opacity: .5;
     height: 0rem;
-    width: 0rem; */
+    width: 0rem;
   }
 }
 

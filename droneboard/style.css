@@ -20,6 +20,11 @@ body {
   align-items: center;
 }
 
+#bottom-pads {
+  position: absolute;
+  bottom: 0;
+}
+
 .title {
   margin-top: 22vh;
   margin-bottom: 28vh;

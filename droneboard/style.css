@@ -26,8 +26,8 @@ body {
 }
 
 .title {
-  margin-top: 22vh;
-  margin-bottom: 28vh;
+  margin-top: auto;
+  margin-bottom: auto;
   text-align: center;
   font-size: 10vw;
   font-weight: 100;

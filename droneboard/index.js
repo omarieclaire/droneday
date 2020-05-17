@@ -31,14 +31,20 @@ window.addEventListener("load", () => {
 
   pads.forEach((pad, index) => {
     pad.style.backgroundColor = colors[index];
-    pad.addEventListener("click", () => {
+
+    // pad.addEventListener("mouseup", tapOrClick, false);
+
+    var handleClick = () => {
       // reset the time so sounds can play more than once
       sounds[index].playbackRate = 0.3;
       sounds[index].currentTime = 0;
       sounds[index].play();
 
       createchild(index);
-    });
+    };
+
+     pad.addEventListener("touchend", handleClick, false);
+     pad.addEventListener("click", handleClick);
   });
 
   const createchild = index => {    //Create child

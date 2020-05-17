@@ -44,11 +44,12 @@ window.addEventListener("load", () => {
   const createchild = index => {    //Create child
     const child = document.createElement("div");
 
-    visual.appendChild(child);
     child.style.backgroundColor = colors[index];
     title.style.color = colors[index];
 
     child.style.animation = `spiral 15s ease`;
+    visual.appendChild(child);
+
     child.addEventListener("animationend", function() {
       visual.removeChild(this);
 

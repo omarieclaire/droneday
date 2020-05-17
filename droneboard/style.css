@@ -144,11 +144,11 @@ body {
 } */
 @keyframes spiral {
   from {
-    transform: translate(85vh) rotate(-120deg);
+    transform: rotate(1deg) translate(85vh) rotate(-120deg);
   }
 
   to {
-    transform: translate(0) rotate(-80deg);
+    transform: rotate(1deg) translate(85vh) rotate(-120deg);
     opacity: .5;
     height: 0rem;
     width: 0rem;

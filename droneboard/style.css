@@ -21,8 +21,8 @@ body {
 }
 
 .title {
-  margin-top: 23vh;
-  margin-bottom: 27vh;
+  margin-top: 22vh;
+  margin-bottom: 28vh;
   text-align: center;
   font-size: 10vw;
   font-weight: 100;
@@ -51,15 +51,36 @@ body {
 
 /* select all the divs inside the pads */
 .pads>div {
-  height: 12vh;
-  width: 12vh;
+  height: 3vh;
+  width: 3vh;
   /* flex: 1; */
   /* margin: .25rem; */
   border-radius: 100%;
   /* outline-offset: -1rem; */
   /* position: absolute; */
   animation: pulse 5s ease-in-out 0s alternate infinite;
+}
 
+.pads>div::before {
+  content:"" ;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 0px;
+  left: 4px;
+}
+
+.pads>div::after {
+  content:"" ;
+  /* background-color: blue;
+  border-radius: 50%;
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  top: 4px;
+  left: 8px; */
 }
 
 .visual>div {
@@ -71,6 +92,17 @@ body {
   border-radius: 50%;
   transform: scale(1);
   z-index: -1;
+}
+
+.visual>div::before {
+  /* content:"" ;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 0px;
+  left: 4px; */
 }
 
 /* @keyframes drone {

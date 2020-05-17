@@ -51,8 +51,8 @@ body {
 
 /* select all the divs inside the pads */
 .pads>div {
-  height: 3vh;
-  width: 3vh;
+  height: 5vh;
+  width: 5vh;
   /* flex: 1; */
   /* margin: .25rem; */
   border-radius: 100%;
@@ -62,14 +62,15 @@ body {
 }
 
 .pads>div::before {
-  content:"" ;
-  background-color: white;
+  content:"^" ;
+  color: white;
+  font-size: .01rem;
   border-radius: 50%;
   position: absolute;
-  width: 12px;
-  height: 12px;
-  top: 0px;
-  left: 4px;
+  width: 5vh;
+  height: 5vh;
+  top: 1vh;
+  left: 2vh;
 }
 
 .pads>div::after {

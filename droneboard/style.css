@@ -5,7 +5,11 @@
 }
 
 body {
-  font-family: "Raleway", sans-serif;
+  /* font-family: "Raleway", sans-serif; */
+}
+
+.o {
+  font-size: 11vw;
 }
 
 .app {
@@ -17,42 +21,48 @@ body {
 }
 
 .title {
-  margin-top: 20vh;
+  margin-top: 38vh;
   text-align: center;
   font-size: 10vw;
-  z-index: 99;
-
+  font-weight: 100;
+  /* z-index: 99; */
+  animation: breathe 5s ease-in-out 0s alternate infinite;
 }
+
+
 
 .pads {
   background: none;
-  /* width: 100%; */
+  width: 100%;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  /* flex-grow: 1; */
-  position: absolute;
-  margin-top: 45.8vh;
+  flex-grow: 1;
+  /* position: relative; */
+  /* margin-top: 45.8vh; */
   justify-content: space-evenly;
+
 }
 
 /* select all the divs inside the pads */
 .pads>div {
-  height: 10vh;
-  width: 10vh;
+  height: 12vh;
+  width: 12vh;
   /* flex: 1; */
-  margin: .25rem;
+  /* margin: .25rem; */
   border-radius: 100%;
-  outline-offset: -1rem;
+  /* outline-offset: -1rem; */
   /* position: absolute; */
+  animation: pulse 5s ease-in-out 0s alternate infinite;
+
 }
 
 .visual>div {
   position: absolute;
   /* start the bottom at o */
   bottom: 50%;
-  height: 10rem;
-  width: 10rem;
+  height: 20vh;
+  width: 20vh;
   border-radius: 50%;
   transform: scale(1);
   z-index: -1;
@@ -86,16 +96,48 @@ body {
     left: 105%;
   }
 } */
-
 @keyframes spiral {
   from {
     transform: rotate(1deg) translate(85vh) rotate(-120deg);
   }
 
   to {
-    transform: rotate(1680deg) translate(0) rotate(-80deg);
+    transform: rotate(1680deg) translateX(0) rotate(-80deg);
     opacity: .5;
     height: 0rem;
     width: 0rem;
   }
+}
+
+@keyframes breathe {
+  0% {
+    transform: translateY(12px);
+    transform: scale(.9);
+  }
+
+  30%, 100% {
+    /* height: 600px; */
+  }
+
+  /* 70% {
+    height: 600px;
+  } */
+}
+
+
+@keyframes pulse {
+  0% {
+    transform: rotateX(20deg);
+    transform: translateY(10px);
+
+    transform: scale(.9);
+  }
+
+  30%, 100% {
+    /* height: 600px; */
+  }
+
+  /* 70% {
+    height: 600px;
+  } */
 }

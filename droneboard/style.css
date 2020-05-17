@@ -94,7 +94,9 @@ body {
 
 .visual>div {
   position: absolute;
-  /* start the bottom at o */
+  background-image: url(img.jpg);
+  background-size: cover;
+  /* start the bottom at 0 */
   bottom: 50%;
   height: 20vh;
   width: 20vh;
@@ -144,14 +146,16 @@ body {
 } */
 @keyframes spiral {
   from {
-    transform: rotate(1deg) translate(85vh) rotate(-120deg);
+    /* transform: rotate(1deg) translate(85vh) rotate(-120deg); */
+    transform: rotate(1deg) translate(-85vh) rotate(-120deg);
   }
 
   to {
-    transform: rotate(1deg) translate(85vh) rotate(-120deg);
-    opacity: .5;
+    /* transform: rotate(1deg) translate(50vh) rotate(-120deg); */
+    transform: rotate(1deg) translate(0) rotate(-80deg);
+    /* opacity: .5;
     height: 0rem;
-    width: 0rem;
+    width: 0rem; */
   }
 }
 

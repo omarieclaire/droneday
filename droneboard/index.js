@@ -1,6 +1,9 @@
+//background color
 
 //after the content is loaded, the code will run
 window.addEventListener("load", () => {
+  const app = document.querySelector(".app")
+
   const title = document.querySelector(".title")
   const sounds = document.querySelectorAll(".sound");
   const pads = document.querySelectorAll(".pads div");
@@ -31,34 +34,49 @@ window.addEventListener("load", () => {
 
   pads.forEach((pad, index) => {
     pad.style.backgroundColor = colors[index];
-
-    // pad.addEventListener("mouseup", tapOrClick, false);
-
     var handleClick = () => {
-      // reset the time so sounds can play more than once
       sounds[index].playbackRate = 0.3;
+      // reset the time so sounds can play more than once
       sounds[index].currentTime = 0;
       sounds[index].play();
-
       createchild(index);
     };
-
-     pad.addEventListener("touchend", handleClick, false);
-     pad.addEventListener("click", handleClick);
+    pad.addEventListener("touchend", handleClick, false);
+    pad.addEventListener("click", handleClick);
   });
 
-  const createchild = index => {    //Create child
+  const createchild = index => { //Create child
     const child = document.createElement("div");
-
     child.style.backgroundColor = colors[index];
     title.style.color = colors[index];
-
     child.style.animation = `spiral 15s ease`;
     visual.appendChild(child);
-
     child.addEventListener("animationend", function() {
       visual.removeChild(this);
-
     });
   };
+
+var toggle = true;
+  const titleChange = () => {
+    if (toggle) {
+      title.style.animation = "pulse 5s ease-in-out 0s alternate infinite";
+      pads.forEach((pad, index) => {
+        pad.style.height = "20vh";
+        pad.style.animation = "spin 5s ease-in-out 0s alternate infinite;"
+        pad.style.backgroundColor = "black";
+      });
+    } else {
+      title.style.animation = "skew 5s ease-in-out 0s alternate infinite";
+      pads.forEach((pad, index) => {
+        pad.style.height = "5vh";
+        pad.style.animation = "pulse 5s ease-in-out 0s alternate infinite;"
+        pad.style.backgroundColor = colors[index];
+      });
+    }
+    toggle = !toggle;
+  }
+  title.addEventListener("click", titleChange, false);
+
+
+
 });

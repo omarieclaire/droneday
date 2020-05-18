@@ -201,3 +201,12 @@ body {
     transform: skew(-20deg, -20deg);
   }
 }
+
+@keyframes spin {
+  0% {
+    transform: rotate(1deg) translate(85vh) rotate(10deg);
+  }
+  100% {
+    transform: rotate(1deg) translate(85vh) rotate(-120deg);
+  }
+}

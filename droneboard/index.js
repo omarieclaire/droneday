@@ -61,7 +61,8 @@ var toggle = true;
     if (toggle) {
       title.style.animation = "pulse 5s ease-in-out 0s alternate infinite";
       pads.forEach((pad, index) => {
-        pad.style.height = "20vh";
+        pad.style.height = "10vh";
+        pad.style.height = "10vh";
         pad.style.animation = "spin 5s ease-in-out 0s alternate infinite;"
         pad.style.backgroundColor = "black";
       });

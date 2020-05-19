@@ -51,12 +51,11 @@ window.addEventListener("load", () => {
     };
     document.getElementById("word").innerHTML = newword;
     document.getElementById("desc").innerHTML = newdesc;
-
   }
 
 
   var handleClick = () => {
-    // event.preventDefault();
+    event.preventDefault();
     randomSelector();
   };
   genbtn.addEventListener("touchend", handleClick, false);

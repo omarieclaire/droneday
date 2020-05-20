@@ -41,7 +41,7 @@ window.addEventListener("load", () => {
     },
     {
       word: 'Ghost',
-      desc: 'Remember the last sound you heard. Make it with your body. Make it again and again until it is inseparable from you.'
+      desc: 'Remember the last sound you heard. Allow it to haunt you. Let it move through you until it is inseparable from you.'
     },
     {
       word: 'Body',

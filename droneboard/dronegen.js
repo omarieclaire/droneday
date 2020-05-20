@@ -38,7 +38,15 @@ window.addEventListener("load", () => {
     }, {
       word: 'Friend',
       desc: 'Press your ear against any appliance who is singing - like a fridge. Sing along exactly the same.'
-    }
+    },
+    {
+      word: 'Ghost',
+      desc: 'Remember the last sound you heard. Make it with your body. Make it again and again until it is inseparable from you.'
+    },
+    {
+      word: 'Body',
+      desc: 'Press your ear against a living body (another? your own?) and listen.'
+    },
   ];
 
   function randomSelector() {

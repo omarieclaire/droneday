@@ -20,7 +20,7 @@ window.addEventListener("load", () => {
     desc: 'Breathe. Breathe with the parts of your lungs that are almost in your throat. Breathe your chest. Breathe your belly. Breathe the bowl of your pelvic floor. With your last breath out make the softest sound.'
   }, {
     word: 'Bend',
-    desc: 'Make a sound with your mouth or an instrument. Bend the sound and make it again. Bend it more. Fold it in two. Fold it again. Fold it until it is too tiny to make and hold it on your tongue until it dissolves.'
+    desc: 'Make a sound with your mouth or an instrument. Bend the sound and make it again. Fold the sound in two. Fold it again. Fold it until it is too tiny to make and hold it on your tongue until it dissolves.'
   }, {
     word: 'Fragile',
     desc: 'Make sounds with objects around you until you find the most fragile sound. Wrap the air around the sound. Make the sound again and again, softer and softer until it disappears.'

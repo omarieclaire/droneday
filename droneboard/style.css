@@ -48,7 +48,7 @@ body {
   padding: 2rem;
   animation: desc 30s ease-in-out 0s alternate infinite;
   text-decoration: none;
-  font: 2rem;
+  font-size: 1.3rem;
 
 }
 

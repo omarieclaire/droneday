@@ -2,9 +2,10 @@
 
 //after the content is loaded, the code will run
 window.addEventListener("load", () => {
-  const app = document.querySelector(".app")
 
-  const title = document.querySelector(".title")
+  var state = true;
+  const app = document.querySelector(".app");
+  const title = document.querySelector(".title");
   const sounds = document.querySelectorAll(".sound");
   const pads = document.querySelectorAll(".pads div");
   const visual = document.querySelector(".visual");
@@ -47,8 +48,15 @@ window.addEventListener("load", () => {
 
   const createchild = index => { //Create child
     const child = document.createElement("div");
-    child.style.backgroundColor = colors[index];
-    title.style.color = colors[index];
+    if (state){
+      child.style.backgroundColor = colors[index];
+      title.style.color = colors[index];
+    } else {
+      title.style.color = "black";
+      child.style.backgroundColor = "black";
+      child.style.borderRadius = "0";
+      child.style.height = "20em";
+    }
     child.style.animation = `spiral 15s ease`;
     visual.appendChild(child);
     child.addEventListener("animationend", function() {
@@ -57,11 +65,12 @@ window.addEventListener("load", () => {
   };
 
 var toggle = true;
-  const titleChange = () => {
-    if (toggle) {
+const titleChange = () => {
+    if (state == true) {
       title.style.animation = "pulse 5s ease-in-out 0s alternate infinite";
       pads.forEach((pad, index) => {
         pad.style.height = "10vh";
+        pad.style.borderRadius = "0px";
         pad.style.animation = "spin 5s ease-in-out 0s alternate infinite;"
         pad.style.backgroundColor = "black";
       });
@@ -69,11 +78,12 @@ var toggle = true;
       title.style.animation = "skew 5s ease-in-out 0s alternate infinite";
       pads.forEach((pad, index) => {
         pad.style.height = "5vh";
+        pad.style.borderRadius = "100px";
         pad.style.animation = "pulse 5s ease-in-out 0s alternate infinite;"
         pad.style.backgroundColor = colors[index];
       });
     }
-    toggle = !toggle;
+    state = !state;
   }
   title.addEventListener("click", titleChange, false);
 

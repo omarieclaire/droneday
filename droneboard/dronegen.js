@@ -24,12 +24,10 @@ window.addEventListener("load", () => {
     }, {
       word: 'Fragile',
       desc: 'Make sounds with objects around you until you find the most fragile sound. Wrap the air around the sound. Make the sound again and again, softer and softer until it disappears.'
-    },
-    {
+    }, {
       word: 'Listen',
       desc: 'Listen until you can hear everything.'
-    },
-    {
+    }, {
       word: 'Space',
       desc: 'There is a space waiting for you. The space is shaped exactly like the sound you will make. Place your sound in space, gently, precisely.'
     }, {
@@ -38,27 +36,38 @@ window.addEventListener("load", () => {
     }, {
       word: 'Friend',
       desc: 'Press your ear against any appliance who is singing - like a fridge. Sing along exactly the same.'
-    },
-    {
+    }, {
       word: 'Ghost',
       desc: 'Remember the last sound you heard. Allow it to haunt you. Let it move through you until it is inseparable from you.'
-    },
-    {
+    }, {
       word: 'Body',
       desc: 'Press your ear against a living body (another? your own?) and listen.'
     },
   ];
 
-  function randomSelector() {
-    var sourceLength = dronegen.length;
-    var randomNumber = Math.floor(Math.random() * sourceLength);
+  // bucket to hold used items
+  var usedDrones = [];
 
-    for (i = 0; i <= sourceLength; i += 1) {
-      var newword = dronegen[randomNumber].word;
-      var newdesc = dronegen[randomNumber].desc;
-    };
+  function randomSelector() {
+    var dronegenLength = dronegen.length;
+
+    var randomNumber = Math.floor(Math.random() * dronegenLength);
+
+    var newword = dronegen[randomNumber].word;
+    var newdesc = dronegen[randomNumber].desc;
+
     document.getElementById("word").innerHTML = newword;
     document.getElementById("desc").innerHTML = newdesc;
+
+    usedDrones.push(dronegen[randomNumber]);
+    dronegen.splice(randomNumber, 1);
+
+    if (dronegenLength === 1) {
+      // copy usedDrones into dronegen
+      dronegen = [...usedDrones];
+      //empty bucket - so next time we don't have doubles
+      usedDrones = [];
+    }
   }
 
 

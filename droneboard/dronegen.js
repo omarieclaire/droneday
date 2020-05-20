@@ -44,7 +44,7 @@ window.addEventListener("load", () => {
     desc: 'Press your ear against a living body (another? your own?) and listen.'
   }, {
     word: 'Object',
-    desc: 'Find an object and make it sacred with your will. Hold it in your hands. Touch it with your eyes and breath. Sing to it in one long note, bathing it in your song.'
+    desc: 'Find an object and make it sacred with your will. Hold it in your hands. Touch it with your eyes and breath. Sing to it in one long note, bathing it in your note.'
   }, ];
 
   // bucket to hold used items

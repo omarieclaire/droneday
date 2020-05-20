@@ -2,7 +2,7 @@ window.addEventListener("load", () => {
 
   var dronegen = [{
       word: 'Shake',
-      desc: 'Shake your entire body wild while making a sound'
+      desc: 'Shake your entire body wild while making a sound.'
     }, {
       word: 'Release',
       desc: 'Form a sound in your mind. Release it out of your nose. Release it out of your mouth. Out of your belly. Out of your entire body.'

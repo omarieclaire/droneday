@@ -1,0 +1,275 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* font-family: "Raleway", sans-serif; */
+}
+
+.o {
+  font-size: 11vw;
+}
+
+.dronegen {
+/* color: red; */
+}
+
+#worddiv {
+  margin: 2rem 15rem 1rem 15rem;
+  /* font-size: 2rem; */
+    font-weight: 100;
+    /* letter-spacing: 6rem; */
+    text-align: center;
+    /* color: blueviolet; */
+    /* text-decoration-line: underline; */
+    /* text-transform: uppercase; */
+}
+
+#descdiv{
+  /* background-color: red; */
+  font-size: 1.5rem;
+  min-height: 15rem;
+  min-width: 30rem;
+  margin: 1rem 20rem 1rem 20rem;
+  padding: 5rem;
+  text-align: center;
+  /* animation: fade 10s ease-in-out 0s alternate infinite; */
+
+}
+
+.button {
+  position: absolute;
+  bottom: 14rem;
+  margin: .2rem;
+  padding: 2rem;
+  animation: desc 30s ease-in-out 0s alternate infinite;
+  text-decoration: none;
+  font-size: 1.3rem;
+
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+
+#bottom-pads {
+  position: absolute;
+  bottom: 0;
+}
+
+#top-pads {
+  position: absolute;
+  top: 0;
+}
+
+
+
+.title {
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: center;
+  font-size: 10vw;
+  font-weight: 100;
+  animation: skew 5s ease-in-out 0s alternate infinite;
+}
+
+
+
+.pads {
+  background: none;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-top:1rem;
+  margin-bottom:1rem;
+
+  /* flex-wrap: wrap; */
+  /* flex-grow: 1; */
+  /* position: relative; */
+  /* margin-top: 45.8vh; */
+  justify-content: space-evenly;
+
+}
+
+/* select all the divs inside the pads */
+.pads>div {
+  height: 5vh;
+  width: 5vh;
+  /* flex: 1; */
+  /* margin: .25rem; */
+  border-radius: 100%;
+  /* outline-offset: -1rem; */
+  /* position: absolute; */
+  animation: pulse 5s ease-in-out 0s alternate infinite;
+}
+
+.pads>div::before {
+  content:"^" ;
+  color: white;
+  font-size: .01rem;
+  border-radius: 50%;
+  position: absolute;
+  width: 5vh;
+  height: 5vh;
+  top: 1vh;
+  left: 2vh;
+}
+
+.pads>div::after {
+  content:"" ;
+  /* background-color: blue;
+  border-radius: 50%;
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  top: 4px;
+  left: 8px; */
+}
+
+.visual>div {
+  position: absolute;
+  /* background-image: url(img.jpg); */
+  background-size: cover;
+  /* start the bottom at 0 */
+  bottom: 50%;
+  height: 20vh;
+  width: 20vh;
+  border-radius: 50%;
+
+  transform: scale(1);
+  z-index: -1;
+  /* border: solid red 2px; */
+}
+
+.visual>div::before {
+  /* content:"" ;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 0px;
+  left: 4px; */
+}
+
+/* @keyframes drone {
+  0% {
+    bottom: -5%;
+    left: -5%;
+  }
+
+  25% {
+    bottom: 50%;
+    left: 50%;
+  }
+
+
+  50% {
+    bottom: 90%;
+    left: 50%;
+  }
+
+
+  75% {
+    bottom: 50%;
+    left: 50%;
+  }
+
+  100% {
+    bottom: -5%;
+    left: 105%;
+  }
+} */
+@keyframes spiral {
+  from {
+    transform: rotate(1deg) translate(85vh) rotate(-120deg);
+  }
+
+  to {
+    transform: rotate(1680deg) translate(0) rotate(-80deg);
+    opacity: .5;
+    height: 0rem;
+    width: 0rem;
+  }
+}
+
+@keyframes breathe {
+  0% {
+    transform: translateY(12px);
+    transform: scale(.9);
+  }
+
+  30%, 100% {
+    /* height: 600px; */
+  }
+
+  /* 70% {
+    height: 600px;
+  } */
+}
+
+
+@keyframes pulse {
+  0% {
+    transform: rotateX(20deg);
+    transform: translateY(10px);
+
+    transform: scale(1.3);
+  }
+
+  30%, 100% {
+    /* height: 600px; */
+  }
+
+  /* 70% {
+    height: 600px;
+  } */
+}
+
+
+@keyframes skew {
+  0% {
+    transform: skew(20deg, 20deg);
+  }
+  100% {
+    transform: skew(-20deg, -20deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(1deg) translate(85vh) rotate(10deg);
+  }
+  100% {
+    transform: rotate(1deg) translate(85vh) rotate(-120deg);
+  }
+}
+
+@keyframes fade {
+  0% {
+    /* transform: scale(1.3); */
+    opacity: 1;
+    /* color:#7200ff; */
+  }
+
+  50% {
+    opacity: 0;
+    /* height: 600px; */
+     /* color:#aa00ff; */
+
+  }
+
+  100% {
+    opacity: 0;
+
+    /* height: 600px; */
+    /* color:#0086ff; */
+
+  }
+}

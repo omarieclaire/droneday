@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet" />
+  <link rel="stylesheet" href="./style.css" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>e a s e l</title>
+  <script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
+  <script src="https://code.createjs.com/1.0.0/tweenjs.min.js"></script>
+  <script src="https://code.createjs.com/1.0.0/soundjs.min.js"></script>
+
+  <script>
+    var soundID = "Thunder";
+    function loadSound () {
+      createjs.Sound.registerSound("sounds/d2.mp3", soundID);
+    }
+    // sound stuff
+    function playSound () {
+      createjs.Sound.play(soundID);
+    }
+ </script>
+
+</head>
+<body onload="init(); loadSound();">
+  <button onclick="playSound();" class="playSound">Play Sound</button>
+  <canvas id="demoCanvas" width="500" height="300"></canvas>
+  <script>
+  function init() {
+
+    // code here.
+    var stage = new createjs.Stage("demoCanvas");
+    var circle = new createjs.Shape();
+    circle.graphics.beginFill("DeepSkyBlue").drawCircle(0, 0, 50);
+    circle.x = 100;
+    circle.y = 100;
+    stage.addChild(circle);
+
+    createjs.Tween.get(circle, { loop: true })
+      .to({ x: 400 }, 1000, createjs.Ease.getPowInOut(4))
+      .to({ alpha: 0, y: 175 }, 500, createjs.Ease.getPowInOut(2))
+      .to({ alpha: 0, y: 225 }, 100)
+      .to({ alpha: 1, y: 200 }, 500, createjs.Ease.getPowInOut(2))
+      .to({ x: 100 }, 800, createjs.Ease.getPowInOut(2));
+
+    createjs.Ticker.setFPS(60);
+    createjs.Ticker.addEventListener("tick", stage);
+
+  }
+</script>
+</body>
+</html>

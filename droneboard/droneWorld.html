@@ -13,13 +13,14 @@
 <head>
   <script src="http://www.webglearth.com/v2/api.js"></script>
   <script>
+    var earth;
     function initialize() {
       var options = {
         atmosphere: true,
         center: [0, 0],
         zoom: 0
       };
-      var earth = new WE.map('earth_div', options);
+      earth = new WE.map('earth_div', options);
       WE.tileLayer('http://tileserver.maptiler.com/nasa/{z}/{x}/{y}.jpg', {
         minZoom: 0,
         maxZoom: 5,
@@ -52,15 +53,14 @@
 
       var markerCustom = WE.marker([50, -9], '/img/logo-webglearth-white-100.png', 100, 24).addTo(earth);
 
-      function panTo(coords) {
-         earth.panTo(coords); //why doesn't this work? I've obviously missed something.
-       }
-
       function randomDrone(){
         // write this at some point. we want this button to bring us to one of the places on the map
       }
 
     }
+    function panTo(coords) {
+       earth.panTo(coords); //why doesn't this work? I've obviously missed something.
+     }
   </script>
   <style>
     html,
@@ -93,8 +93,8 @@
   <!-- <div id="map"></div> -->
   <!-- <div id="coords"></div> -->
   <div id="buttons">
-    <input type="button" value="Fly to Random Drone" onclick="randomDrone()"><br>
-    <input type="button" value="Fly to Berlin" onclick="panTo([52.531677, 13.381777]);"><br>
+    <input type="button" value="Fly to Random Drone" onclick="randomDrone()"><br />
+    <input type="button" id="berlin" value="Fly to Berlin" onclick="panTo([52.531677, 13.381777]);"><br />
   </div>
 </body>
 

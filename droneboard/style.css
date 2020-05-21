@@ -31,7 +31,6 @@ body {
 
 #descdiv {
   align-items: center;
-
 }
 
 #desc {
@@ -54,7 +53,7 @@ body {
 @media (min-width: 1269px) {
   .button {
     /* bottom: 20%; */
-    font-size: 1.3rem;
+    font-size: 1.6rem;
   }
 
   #word {
@@ -65,7 +64,7 @@ body {
   #desc {
     font-size: 1.3rem;
     min-height: 15rem;
-    min-width: 40rem;
+    /* min-width: 40rem; */
     margin: 1rem 20rem 1rem 20rem;
   }
 }

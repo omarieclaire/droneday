@@ -1,10 +1,17 @@
-<!-- (done) - display globe -->
-<!-- (done) - create markers  -->
-<!-- (done) - make buttons  -->
-<!-- (done) - why doesn't the panTo(coords) function work? What am I missing? see it working here http://examples.webglearth.com/#apidemo -->
-<!-- todo - the "random drone" button should use the panTo(coords) function and go to a random Drone (right now there are 4 but there will be many)-->
-<!-- todo - make it work better on mobile (right now you can spin it once but if you zoom you can't spin it again) -->
-<!-- (done) - try to animate it so it spins? this might look bad so don't invest too much in it http://examples.webglearth.com/#animation -->
+
+<!-- TODO -->
+<!--stop markers from quivering -->
+<!--faster pan and maybe zoom on pan?-->
+<!--the "random drone" button should use the panTo(coords) function and go to a random Drone (right now there are 4 but there will be many)-->
+<!--make background of stars --><!-- todo - make it work better on mobile (right now you can spin it once but if you zoom you can't spin it again) -->
+<!--experiment with different maps? -->
+
+<!-- display globe -->
+<!--create markers  -->
+<!--make buttons  -->
+<!--try to animate it so it spins? this might look bad so don't invest too much in it http://examples.webglearth.com/#animation -->
+<!--why doesn't the panTo(coords) function work? What am I missing? see it working here http://examples.webglearth.com/#apidemo -->
+
 
 
 <!DOCTYPE HTML>
@@ -28,25 +35,25 @@
       }).addTo(earth);
 
       var marker = WE.marker([52.531677, 13.381777]).addTo(earth);
-      marker.bindPopup("<b>Berlin</b><br>Drone<br /><span style='font-size:10px;color:#999'>...</span>", {
+      marker.bindPopup("Berlin", {
         maxWidth: 150,
         closeButton: true
       }).openPopup();
 
       var marker2 = WE.marker([30.058056, 31.228889]).addTo(earth);
-      marker2.bindPopup("<b>Cairo</b><br>Drone", {
+      marker2.bindPopup("Cairo", {
         maxWidth: 120,
         closeButton: true
       });
 
       var marker3 = WE.marker([43.6532, -79.3832]).addTo(earth);
-      marker3.bindPopup("<b>Toronto</b><br>Drone<br /><span style='font-size:10px;color:#999'>...</span>", {
+      marker3.bindPopup("Toronto", {
         maxWidth: 120,
         closeButton: true
       });
 
       var marker4 = WE.marker([-34.603722, -58.381592]).addTo(earth);
-      marker4.bindPopup("<b>Buenos Aires</b><br>Drone<br /><span style='font-size:10px;color:#999'>...</span>", {
+      marker4.bindPopup("Buenos Aires", {
         maxWidth: 120,
         closeButton: true
       });
@@ -55,7 +62,7 @@
 
       function randomDrone(){
         // write this at some point.
-        // we want this button to bring us to one of the markers on the map 
+        // we want this button to bring us to one of the markers on the map
       }
 
     }
@@ -83,6 +90,7 @@
        earth.panTo(coords);
      }
   </script>
+
   <style>
     html,
     body {
@@ -95,8 +103,15 @@
       right: 0;
       bottom: 0;
       left: 0;
+      background-image: url(starfield.jpg);
+      background-size: cover;
       background-color: #000;
       position: absolute !important;
+    }
+
+    #earth_div div {
+        color: blue;
+        font-size:10px;
     }
 
     #buttons {
@@ -109,7 +124,8 @@
 </head>
 
 <body onload="initialize()">
-  <div id="earth_div"></div>
+  <div id="earth_div">
+  </div>
 
   <!-- <div id="map"></div> -->
   <!-- <div id="coords"></div> -->

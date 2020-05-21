@@ -40,6 +40,22 @@
         attribution: 'NASA'
       }).addTo(earth);
 
+      function addDestination(coordinate, name){
+        let marker = WE.marker(coordinate).addTo(earth);
+        coordList.push(coordinate);
+        marker.bindPopup(name, {
+          maxWidth: 150,
+          closeButton: true
+        })
+      }
+
+      addDestination([49.2827, -123.1207], "Vancouver");
+      addDestination([52.531677, 13.381777], "Berlin");
+      addDestination([30.058056, 31.228889], "Cairo");
+      addDestination([43.6532, -79.3832], "Toronto");
+      addDestination([-34.603722, -58.381592], "Buenos Aires");
+
+/*
       var marker = WE.marker([52.531677, 13.381777]).addTo(earth);
       coordList.push([52.531677, 13.381777]);
       marker.bindPopup("Berlin", {
@@ -67,7 +83,7 @@
         maxWidth: 120,
         closeButton: true
       });
-
+*/
       var markerCustom = WE.marker([50, -9], '/img/logo-webglearth-white-100.png', 100, 24).addTo(earth);
     }
     var before = null;
@@ -98,7 +114,6 @@
 
     function randomDrone(){
       let randomCoord = coordList[Math.floor(Math.random() * coordList.length)];
-      console.log(randomCoord);
       panTo(randomCoord);
     }
   </script>

@@ -1,10 +1,10 @@
 <!-- (done) - display globe -->
 <!-- (done) - create markers  -->
 <!-- (done) - make buttons  -->
-<!-- todo - why doesn't the panTo(coords) function work? What am I missing? see it working here http://examples.webglearth.com/#apidemo -->
+<!-- (done) - why doesn't the panTo(coords) function work? What am I missing? see it working here http://examples.webglearth.com/#apidemo -->
 <!-- todo - the "random drone" button should use the panTo(coords) function and go to a random Drone (right now there are 4 but there will be many)-->
 <!-- todo - make it work better on mobile (right now you can spin it once but if you zoom you can't spin it again) -->
-<!-- todo - try to animate it so it spins? this might look bad so don't invest too much in it http://examples.webglearth.com/#animation -->
+<!-- (done) - try to animate it so it spins? this might look bad so don't invest too much in it http://examples.webglearth.com/#animation -->
 
 
 <!DOCTYPE HTML>
@@ -53,23 +53,33 @@
 
       var markerCustom = WE.marker([50, -9], '/img/logo-webglearth-white-100.png', 100, 24).addTo(earth);
 
-      // Start a simple rotation animation
-       var before = null;
-       requestAnimationFrame(function animate(now) {
-           var c = earth.getPosition();
-           var elapsed = before? now - before: 0;
-           before = now;
-           earth.setCenter([c[0], c[1] + 0.1*(elapsed/30)]);
-           requestAnimationFrame(animate);
-       });
-
       function randomDrone(){
         // write this at some point. we want this button to bring us to one of the places on the map
       }
 
     }
+    var before = null;
+    var toggle = false;
+    function toggleSpin() {
+        // this is a recursive function
+        requestAnimationFrame(function animate(now) {
+          if(!toggle) {
+            before = null;
+            // break out of the recursion by exiting the function
+            return;
+          }
+          var c = earth.getPosition();
+          var elapsed = before? now - before: 0;
+          before = now;
+          earth.setCenter([c[0], c[1] + 0.1*(elapsed/30)]);
+          // here is where we "recurse"
+          requestAnimationFrame(animate);
+        });
+      toggle = !toggle;
+    }
     function panTo(coords) {
-       earth.panTo(coords); //why doesn't this work? I've obviously missed something.
+      toggleSpin();
+       earth.panTo(coords);
      }
   </script>
   <style>
@@ -104,6 +114,7 @@
   <!-- <div id="coords"></div> -->
   <div id="buttons">
     <input type="button" value="Fly to Random Drone" onclick="randomDrone()"><br />
+    <input type="button" id="berlin" value="toggle spin" onclick="toggleSpin();"><br />
     <input type="button" id="berlin" value="Fly to Berlin" onclick="panTo([52.531677, 13.381777]);"><br />
   </div>
 </body>

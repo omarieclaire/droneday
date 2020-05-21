@@ -17,7 +17,7 @@ window.addEventListener("load", () => {
     desc: 'Sway your body. Hum a long deep hum as you sway. Keep humming until your body is ready to stop.'
   }, {
     word: 'Throat',
-    desc: 'Breathe. Breathe with the parts of your lungs that are almost in your throat. Breathe your chest. Breathe your belly. Breathe the bowl of your pelvic floor. With your last breath out make the softest sound.'
+    desc: 'Breathe into the shallows of your throat. Breathe into your chest. Breathe your belly. Breathe the bowl of your pelvic floor. With your last breath out make the softest sound.'
   }, {
     word: 'Bend',
     desc: 'Make a sound with your mouth or an instrument. Bend the sound and make it again. Fold the sound in two. Fold it again. Fold it until it is too tiny to make and hold it on your tongue until it dissolves.'

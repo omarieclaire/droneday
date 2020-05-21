@@ -26,6 +26,11 @@ body {
   font-weight: 400;
 }
 
+#call{
+  background-color: rgba(249, 195, 179, 0.32);
+
+}
+
 /* Press release formatting */
 .pullquote {
   margin: 1em .8em 1em .8em;

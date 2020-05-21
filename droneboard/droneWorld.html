@@ -53,6 +53,16 @@
 
       var markerCustom = WE.marker([50, -9], '/img/logo-webglearth-white-100.png', 100, 24).addTo(earth);
 
+      // Start a simple rotation animation
+       var before = null;
+       requestAnimationFrame(function animate(now) {
+           var c = earth.getPosition();
+           var elapsed = before? now - before: 0;
+           before = now;
+           earth.setCenter([c[0], c[1] + 0.1*(elapsed/30)]);
+           requestAnimationFrame(animate);
+       });
+
       function randomDrone(){
         // write this at some point. we want this button to bring us to one of the places on the map
       }

@@ -1,0 +1,336 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* font-family: "Raleway", sans-serif; */
+  color: #454546;
+}
+
+#genbtn {
+  display: flex;
+  align-items: center;
+  /* position: relative; */
+  bottom: 35%;
+  margin: .1rem;
+  padding: .1rem;
+  /* color: linear-gradient(90deg,#ff8a00,#e52e71); */
+  color: #7a00ff;
+  text-decoration: none;
+  font-size: 5.5rem;
+  letter-spacing: .2rem;
+
+  transition: all 0.9s ease;
+
+}
+
+#genbtn:hover {
+  animation: none;
+  color: #d800ff;
+  letter-spacing: .1rem;
+  animation: genbtn 5s ease-in-out 0s alternate infinite;
+
+  /* padding: 20px; */
+}
+
+#word {
+  align-items: center;
+  margin-top: 20rem;
+  font-size: 6rem;
+  font-weight: 100;
+  text-align: center;
+}
+
+#descdiv {
+  align-items: center;
+}
+
+#desc {
+  display: flex;
+  /* align-items: center; */
+  position: relative;
+  font-size: 4rem;
+  margin: 2rem 2rem 0rem 2rem;
+  padding: 3rem;
+  text-align: center;
+  min-height: 45rem;
+}
+
+/* phone */
+@media (min-width: 320px) {
+  .genbtn {
+    font-size: 1.6rem;
+  }
+}
+
+/* desktop */
+@media (min-width: 1250px) {
+  #genbtn {
+    /* bottom: 20%; */
+    font-size: 1.5rem;
+  }
+
+  #word {
+    margin-top: 5rem;
+    font-size: 2rem;
+  }
+
+  #desc {
+    font-size: 1.3rem;
+    min-height: 15rem;
+    /* min-width: 40rem; */
+    margin: 1rem 20rem 1rem 20rem;
+  }
+}
+
+#worddiv {
+  margin: 2rem 15rem 1rem 15rem;
+  font-size: 1.3rem;
+}
+
+.o {
+  font-size: 11vw;
+}
+
+.dronegen {
+  /* color: red; */
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+
+#bottom-pads {
+  position: absolute;
+  bottom: 0;
+}
+
+#top-pads {
+  position: absolute;
+  top: 0;
+}
+
+.title {
+  margin-top: auto;
+  margin-bottom: auto;
+  text-align: center;
+  font-size: 10vw;
+  font-weight: 100;
+  animation: skew 5s ease-in-out 0s alternate infinite;
+  /* cursor: url('path-to-image.png'), auto;	 */
+  cursor:default;
+
+}
+
+.pads {
+  background: none;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  /* flex-wrap: wrap; */
+  /* flex-grow: 1; */
+  /* position: relative; */
+  /* margin-top: 45.8vh; */
+  justify-content: space-evenly;
+}
+
+/* select all the divs inside the pads */
+.pads>div {
+  height: 5vh;
+  width: 5vh;
+  border-radius: 100%;
+  animation: pulse 5s ease-in-out 0s alternate infinite;
+}
+
+.pads>div::before {
+  content: "^";
+  color: white;
+  font-size: .01rem;
+  border-radius: 50%;
+  position: absolute;
+  width: 5vh;
+  height: 5vh;
+  top: 1vh;
+  left: 2vh;
+}
+
+.pads>div::after {
+  content: "";
+  /* background-color: blue;
+  border-radius: 50%;
+  position: absolute;
+  width: 4px;
+  height: 4px;
+  top: 4px;
+  left: 8px; */
+}
+
+.visual>div {
+  position: absolute;
+  /* background-image: url(img.jpg); */
+  background-size: cover;
+  /* start the bottom at 0 */
+  bottom: 50%;
+  height: 20vh;
+  width: 20vh;
+  border-radius: 50%;
+  transform: scale(1);
+  z-index: -1;
+}
+
+.visual>div::before {
+  /* content:"" ;
+  background-color: white;
+  border-radius: 50%;
+  position: absolute;
+  width: 12px;
+  height: 12px;
+  top: 0px;
+  left: 4px; */
+}
+
+/* @keyframes homage {
+  0% {
+    bottom: -5%;
+    left: -5%;
+  }
+
+  25% {
+    bottom: 50%;
+    left: 50%;
+  }
+
+
+  50% {
+    bottom: 90%;
+    left: 50%;
+  }
+
+
+  75% {
+    bottom: 50%;
+    left: 50%;
+  }
+
+  100% {
+    bottom: -5%;
+    left: 105%;
+  }
+} */
+@keyframes spiral {
+  from {
+    transform: rotate(1deg) translate(85vh) rotate(-120deg);
+  }
+
+  to {
+    transform: rotate(1680deg) translate(0) rotate(-80deg);
+    opacity: .5;
+    height: 0rem;
+    width: 0rem;
+  }
+}
+
+@keyframes pulse {
+  0% {
+    transform: rotateX(20deg);
+    transform: translateY(10px);
+    transform: scale(1.3);
+  }
+
+  100% {
+    transform: scale(1.5);
+  }
+}
+
+@keyframes skew {
+  0% {
+    transform: skew(20deg, 20deg);
+  }
+
+  100% {
+    transform: skew(-20deg, -20deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(1deg) translate(85vh) rotate(10deg);
+  }
+
+  100% {
+    transform: rotate(1deg) translate(85vh) rotate(-120deg);
+  }
+}
+
+@keyframes fade {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes genbtn {
+
+  0% {
+    color: #9d00ff;
+
+  }
+
+  50% {
+    color: #0043ff;
+
+    /* color: #9d00ff; */
+  }
+  100% {
+    color: #ff0081;
+
+  }
+
+}
+
+
+/*
+  html,
+  body {
+    padding: 0;
+    margin: 0;
+  } */
+
+  #earth_div {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-image: url(starfield.jpg);
+    background-size: cover;
+    background-color: #000;
+    position: absolute !important;
+  }
+
+  #earth_div div {
+      color: blue;
+      font-size:10px;
+  }
+
+  #buttons {
+    position: absolute;
+    font-size: 2rem;
+    margin:3rem;
+    top: 10px;
+    left: 10px;
+  }

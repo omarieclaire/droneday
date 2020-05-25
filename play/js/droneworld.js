@@ -64,7 +64,7 @@
     var options = {
       atmosphere: true,
       center: [0, 0],
-      zoom: 2.5
+      zoom: 2.25
     };
     earth = new WE.map('earth_div', options);
     // WE.tileLayer('../map.png', {
@@ -97,16 +97,21 @@
     // this is a recursive function
     requestAnimationFrame(function animate(now) {
       if (!toggle) {
+        document.getElementById("spinbtn").src = "../img/spin.png";
+
         before = null;
         // break out of the recursion by exiting the function
         return;
       }
+
       var c = earth.getPosition();
       var elapsed = before ? now - before : 0;
       before = now;
       earth.setCenter([c[0], c[1] + 0.1 * (elapsed / 30)]);
       // here is where we "recurse"
       requestAnimationFrame(animate);
+      document.getElementById("spinbtn").src = "../img/stopspin.png";
+
     });
     toggle = !toggle;
   }
@@ -128,6 +133,7 @@
 
   function toggleEventList() {
     if (ishidden) {
+      document.getElementById("listbtn").src = "../img/openeye.png";
       let ul = document.createElement("ul");
       for(var i=0; i<eventList.length; i++) {
         let event = eventList[i];
@@ -141,17 +147,18 @@
       let eventDiv = document.getElementById("event-list");
       eventDiv.appendChild(ul);
 
-      let button = document.getElementById("listbtn");
-      button.setAttribute("value", "Hide");
+      // let button = document.getElementById("listbtn");
+      // button.setAttribute("value", "Hide");
 
     } else {
-      document.querySelector('#listbtn').innerHTML = 'Hidee';
+      document.getElementById("listbtn").src = "../img/closedeye.png";
+      // document.querySelector('#listbtn').innerHTML = 'Hidee';
 
       let eventDiv = document.getElementById("event-list");
       eventDiv.innerHTML = "";
 
-      let button = document.getElementById("listbtn");
-      button.setAttribute("value", "Show");
+      // let button = document.getElementById("listbtn");
+      // button.setAttribute("value", "Show");
     }
     ishidden = !ishidden;
   }

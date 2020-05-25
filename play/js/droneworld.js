@@ -90,6 +90,7 @@
 
     // var markerCustom = WE.marker([50, -9], '../img/logo-webglearth-white-100.png', 100, 24).addTo(earth);
   }
+
   var before = null;
   var toggle = false;
 
@@ -124,6 +125,8 @@
 
 
   function randomDrone() {
+    toggle = false;
+
     let randomCoord = coordList[Math.floor(Math.random() * coordList.length)];
     panTo(randomCoord);
   }

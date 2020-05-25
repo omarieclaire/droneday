@@ -7,12 +7,12 @@
 body {
   /* font-family: "Raleway", sans-serif; */
   color: #454546;
-  font-size: 2rem;
+  font-size: 2.9rem;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 981px) {
   body {
-    font-size: 2rem;
+    font-size: 1.9rem;
   }
 }
 
@@ -36,38 +36,42 @@ body {
   text-align: center;
 }
 
-#word {
-  font-weight: 100;
-}
-
-@media screen and (min-width: 768px) {
-  #word {}
-}
-
 #worddiv {
   flex-grow: 1;
   flex-shrink: 1;
   flex-basis: 33%;
-  margin-top: 10rem;
-  /* color:red; */
-  /* font-size: 24px; */
+  margin-top: 40px;
+  font-size: 2.5rem;
 }
-
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 981px) {
   #worddiv {
-    margin-top: 7rem;
-    /* font-size: 36px; */
+    font-size: 1.5rem;
   }
 }
+
+#word {
+  font-weight: 100;
+}
+
+/* @media screen and (min-width: 981px) {
+  #word {}
+} */
 
 #descdiv {
   flex-grow: 1;
   flex-shrink: 0;
   flex-basis: 200px;
   max-width: 60%;
+  font-size: 2.5rem;
+  /* font-size: 70px; */
 }
 
-#desc {}
+@media screen and (min-width: 981px) {
+  #descdiv {
+    font-size: 1.2rem;
+    /* font-size: 70px; */
+  }
+}
 
 .button-wrapper {
   flex: 1 1 33%;
@@ -202,7 +206,7 @@ body {
   top: 4rem;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 981px) {
   #event-list{
     font-size: 2rem;
   }
@@ -223,7 +227,7 @@ body {
 }
 
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 981px) {
   .worldbuttondiv{
     font-size: 2rem;
   }
@@ -241,7 +245,7 @@ body {
 }
 
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 981px) {
   /* #worldbutton{
   } */
 }

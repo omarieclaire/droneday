@@ -782,15 +782,10 @@ form .largetextarea {
 .playbuttondiv{
   display: flex;
   flex-direction: row;
-  width: 100%;
   justify-content: space-around;
   align-items: center;
   font-size: 4rem;
-  position: absolute;
-  /* right: 10px; */
   margin-top: 1rem;
-  /* margin: 3rem; */
-  /* padding: 1rem; */
 }
 
 

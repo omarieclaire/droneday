@@ -2,6 +2,8 @@
 <!-- TODO TODO TODO -->
 <!--stop markers from quivering -->
 <!--closer zoom by defaut -->
+<!--fix the relationship between "fly somewhere" and "spin" -->
+<!--toggle show/hi -->
 
 <!--make markers look better -->
 <!--markers close when you click outside their box -->
@@ -28,15 +30,14 @@
 <body onload="initialize()">
   <div id="earth_div">
   </div>
-  <div id="buttons">
-    <input type="button" class="worldbuttons" value="Fly somewhere" onclick="randomDrone();"><br />
-    <input type="button" class="worldbuttons" id="spin" value="spin" onclick="toggleSpin();"><br />
-    <input type="button" class="worldbuttons" id="berlin" value="Fly to Berlin" onclick="panTo([52.531677, 13.381777]);"><br />
-    <input type="button" class="worldbuttons" id="show-all" value="show all events" onclick="toggleEventList();"><br />
+  <div id="worldbuttondiv">
+    <input type="button" class="worldbutton" value="Fly somewhere" onclick="randomDrone();"><br />
+    <input type="button" class="worldbutton" id="spin" value="spin" onclick="toggleSpin();"><br />
+    <input type="button" class="worldbutton" id="berlin" value="Fly to Berlin" onclick="panTo([52.531677, 13.381777]);"><br />
+    <input type="button" class="worldbutton" id="show-all" value="show all events" onclick="toggleEventList();"><br />
 
   </div>
   <div id="event-list" style="position:absolute;">
-    <p>I AM A HELLO</p>
   </div>
 </body>
 

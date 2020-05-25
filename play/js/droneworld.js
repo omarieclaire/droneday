@@ -67,6 +67,8 @@
       zoom: 2.5
     };
     earth = new WE.map('earth_div', options);
+    // WE.tileLayer('../map.png', {
+
     WE.tileLayer('http://tileserver.maptiler.com/nasa/{z}/{x}/{y}.jpg', {
       minZoom: 0,
       maxZoom: 5,

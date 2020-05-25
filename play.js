@@ -43,7 +43,7 @@
 			<section class="home-about">
 				<div class="home-about-textbox">
 					<h1>dr(((((((((((o)))))))))))ne</h1>
-					<p style="text-align: center; padding: 2em;">A list of streamable audio resources for drone sounds, ambient drones, and drone music. <a target="_blank" href="http://droneday.org/submit-music">Send in your favourite drones</a>.</p>
+					<p style="text-align: center; padding: 2em;">A list of streamable audio resources for drone sounds, ambient drones, and drone music. <a target="_blank" href="https://droneday.org/submit-music">Send in your favourite drones</a>.</p>
 
             <div class="worldbuttondiv">
             <img alt="show/hide list" id="listbtn" class="worldbutton" src="../img/droneboard.png" onclick=""  />

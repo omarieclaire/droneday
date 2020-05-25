@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Drone Tone</title>
+  <!-- <link rel="stylesheet" href="../style.css" /> -->
+  <!-- <script src="../js/droneworld.js" type="text/javascript"></script> -->
+</head>
+
+<body>
+
+
+  <script type="text/javascript">
+    // create web audio api context
+    var audioCtx1 = new(window.AudioContext || window.webkitAudioContext)();
+    var audioCtx2 = new(window.AudioContext || window.webkitAudioContext)();
+    var audioCtx3 = new(window.AudioContext || window.webkitAudioContext)();
+
+
+    // create Oscillator node
+    var oscillator1 = audioCtx1.createOscillator();
+    var oscillator2 = audioCtx2.createOscillator();
+    var oscillator3 = audioCtx3.createOscillator();
+    var LFO = audioCtx1.createOscillator();
+
+    function setuposc(osc, frq, audioCtx) {
+      osc.type = 'sine';
+      osc.frequency.setValueAtTime(frq, audioCtx.currentTime); // value in hertz
+      osc.connect(audioCtx.destination);
+    }
+
+    setuposc(oscillator1, 293.66, audioCtx1);
+    setuposc(oscillator2, 349.23, audioCtx2);
+    setuposc(oscillator3, 440, audioCtx3);
+    setuposc(LFO, 1, audioCtx1);
+    LFO.connect(oscillator1.frequency);
+
+    function startosc1() {
+      oscillator1.start();
+    }
+    function startosc2() {
+      oscillator2.start();
+    }
+    function startosc3() {
+      oscillator3.start();
+    }
+
+    function changefrq(){
+      oscillator1.frequency.setValueAtTime(440, audioCtx1.currentTime); // value in hertz
+
+    }
+
+    function startLFO(){
+      LFO.start();
+    }
+
+  </script>
+
+  <button type="button" onclick="startosc1()" name="button">tone 1</button>
+  <button type="button" onclick="startosc2()" name="button">tone 2</button>
+  <button type="button" onclick="startosc3()" name="button">tone 3</button>
+
+  <button type="button" onclick="changefrq()" name="button">chng frq</button>
+  <button type="button" onclick="startLFO()" name="button">start LFO</button>
+
+
+</body>
+
+</html>

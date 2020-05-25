@@ -207,7 +207,7 @@ body {
   font-size: 4rem;
   overflow: scroll;
   margin: 1.5rem;
-  top: 4rem;
+  top: 6rem;
 }
 
 @media screen and (min-width: 981px) {

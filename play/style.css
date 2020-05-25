@@ -98,12 +98,12 @@ body {
   /* color: red; */
 }
 
-/* .app {
+.app {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-  } */
+  }
 #bottom-pads {
   position: absolute;
   bottom: 0;

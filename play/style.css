@@ -198,6 +198,7 @@ body {
 #event-list{
   font-size: 4rem;
   overflow: scroll;
+  margin: 1.5rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -206,31 +207,41 @@ body {
   }
 }
 
-#worldbuttondiv{
+.worldbuttondiv{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
   font-size: 4rem;
   position: absolute;
-  right: 10px;
-  top: 10px;
-  margin: 3rem;
-  padding: 1rem;
+  /* right: 10px; */
+  /* top: 10px; */
+  /* margin: 3rem; */
+  /* padding: 1rem; */
 }
 
 
 @media screen and (min-width: 768px) {
-  #worldbuttondiv{
+  .worldbuttondiv{
     font-size: 2rem;
   }
 }
 
-#worldbutton{
+.worldbutton {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 33%;
+  /* margin-top: 10rem; */
   margin: 3rem;
   padding: 1rem;
+  color: red;
 }
 
 
 @media screen and (min-width: 768px) {
-  #worldbutton{
-  }
+  /* #worldbutton{
+  } */
 }
 
 #earth_div {

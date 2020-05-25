@@ -123,20 +123,35 @@
     panTo(randomCoord);
   }
 
+
+  var ishidden = true;
+
   function toggleEventList() {
-    let ul = document.createElement("ul");
-    for(var i=0; i<eventList.length; i++) {
-      let event = eventList[i];
+    if (ishidden) {
+      let ul = document.createElement("ul");
+      for(var i=0; i<eventList.length; i++) {
+        let event = eventList[i];
 
-      let li = document.createElement("li");
-      li.innerHTML = event.name;
-      // to add links:
-      //li.innerHTML = '<a href="' + event.link + '">' + event.name + '</a>';
+        let li = document.createElement("li");
+        li.innerHTML = event.name;
+        // to add links:
+        //li.innerHTML = '<a href="' + event.link + '">' + event.name + '</a>';
+        ul.appendChild(li);
+      }
+      let eventDiv = document.getElementById("event-list");
+      eventDiv.appendChild(ul);
 
+      let button = document.getElementById("listbtn");
+      button.setAttribute("value", "Hide");
 
-      ul.appendChild(li);
+    } else {
+      document.querySelector('#listbtn').innerHTML = 'Hidee';
+
+      let eventDiv = document.getElementById("event-list");
+      eventDiv.innerHTML = "";
+
+      let button = document.getElementById("listbtn");
+      button.setAttribute("value", "Show");
     }
-
-    let eventDiv = document.getElementById("event-list");
-    eventDiv.appendChild(ul);
+    ishidden = !ishidden;
   }

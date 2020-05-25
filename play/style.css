@@ -37,6 +37,9 @@ body {
 }
 
 #worddiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   flex-grow: 1;
   flex-shrink: 1;
   flex-basis: 33%;
@@ -63,6 +66,7 @@ body {
   flex-basis: 200px;
   max-width: 60%;
   font-size: 2.5rem;
+
   /* font-size: 70px; */
 }
 

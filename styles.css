@@ -766,3 +766,44 @@ form .largetextarea {
   min-height: 140px;
   padding-top: 10px;
 }
+
+
+.playbuttondiv{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 4rem;
+  position: absolute;
+  /* right: 10px; */
+  margin-top: 1rem;
+  /* margin: 3rem; */
+  /* padding: 1rem; */
+}
+
+
+@media screen and (min-width: 981px) {
+  .playbuttondiv{
+    font-size: 2rem;
+  }
+}
+
+.playbutton {
+  /* flex-grow: 1; */
+  /* flex-shrink: 1; */
+  flex-basis: 10%;
+  margin: 1rem;
+  padding: .5rem;
+  color: white;
+  height: 8rem;
+  width: 9.5rem;
+}
+
+
+@media screen and (min-width: 981px) {
+  #playbutton{
+    height: 6rem;
+    width: 7.5rem;
+  }
+}

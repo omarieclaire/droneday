@@ -204,7 +204,9 @@ body {
 
 
 #event-list{
-  font-size: 4rem;
+  font-size: 1.5rem;
+  padding: .5rem;
+  height: 80%;
   overflow: scroll;
   margin: 1.5rem;
   top: 6rem;
@@ -245,8 +247,8 @@ body {
   margin: 1rem;
   padding: .5rem;
   color: white;
-  height: 8rem;
-  width: 9.5rem;
+  /* height: 8rem; */
+  width: 14%;
 }
 
 

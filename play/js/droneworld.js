@@ -2,61 +2,116 @@
   var coordList = [];
 
   const eventList = [{
-      name: "Berlin",
-      coord: [52.531677, 13.381777],
+      name: "Asheville, USA",
+      coord: [35.5951, -82.5515]
+    },
+    {
+      name: "Bega, Australia",
+      coord: [-36.6889, 149.8416]
     },
     {
       name: "Brandon, Manitoba",
-      coord: [49.8485, -99.9501],
+      coord: [49.8485, -99.9501]
     },
     {
       name: "Buenos Aires, Argentina",
-      coord: [-4.6037, -58.3816]
+      coord: [-34.6037, -58.3816]
     },
-    // {
-    //   name: "Edmonton, US",
-    //   coord: [53.631611, -113.323975],
-    // },
+    {
+      name: "Burlington, USA.",
+      coord: [44.4759, -73.2121]
+    },
+    {
+      name: "Charlottetown, Canada”,
+      coord: [46.2382, -63.1311]
+    },
+    {
+      name: "Chicago, USA",
+      coord: [41.8781, -87.6298]
+    },
+    {
+      name: "East Lansing, USA",
+      coord: [42.7370, -84.4839]
+    },
+    {
+      name: "Edmonton ALTA USA",
+      coord: [53.631611, -113.323975]
+    },
+    {
+      name: "Edmonton, Alberta Canada",
+      coord: [53.5461, -113.4938]
+    },
     {
       name: "Edmonton, Canada",
-      coord: [53.5461, -113.4938],
+      coord: [53.5461, -113.4938]
+    },
+    {
+      name: "Guelph, Canada",
+      coord: [43.5448, -80.2482]
+    },
+    {
+      name: "Hamilton, Canada",
+      coord: [43.2557, -79.8711]
+    },
+    {
+      name: "Kent, UK”,
+      coord: [51.2787, 0.5217]
+    },
+    {
+      name: "Kingston, Canada",
+      coord: [44.2312, -76.4860]
     },
     {
       name: "Lille, France",
-      coord: [50.6292, 3.0573],
+      coord: [50.6292, 3.0573]
     },
     {
       name: "Logroño,  Spain",
-      coord: [42.4627, 2.4450],
+      coord: [42.4627, -2.4450]
     },
     {
       name: "New Westminster, Canada",
-      coord: [49.2057, -122.9110],
+      coord: [49.2057, -122.9110]
+    },
+    {
+      name: "Oaxaca, Mexico",
+      coord: [17.0732, -96.7266]
     },
     {
       name: "Olympia, USA",
-      coord: [47.0379, -122.9007],
+      coord: [47.0379, -122.9007]
     },
     {
-      name: "Ottawa, Canada",
-      coord: [45.4215, -75.6972],
+      name: "Ottawa, Ontario",
+      coord: [45.4215, -75.6972]
     },
     {
       name: "Peterborough, Canada",
-      coord: [44.3091, -78.3197],
+      coord: [44.3091, -78.3197]
     },
     {
       name: "Salt Spring Island, Canada",
-      coord: [48.8167, -123.5089],
-
+      coord: [48.8167, -123.5089]
     },
     {
       name: "Toronto, Canada",
-      coord: [43.6532, -79.3832],
+      coord: [43.6532, -79.3832]
     },
     {
-      name: "Vancouver, Canada",
+      name: "Toronto, Canada",
+      coord: [43.6532, -79.3832]
+    },
+    {
+      name: "Vancouver Canada",
       coord: [49.2827, -123.1207]
+    },
+    {
+      name: "Victoria, Canada",
+      coord: [48.4284, -123.3656]
+    },
+    {
+      name: "North Carolina, USA",
+      coord: [35.8257, -82.0407]
     }
   ];
 
@@ -83,7 +138,7 @@
       })
     }
 
-    for(var i=0; i<eventList.length; i++) {
+    for (var i = 0; i < eventList.length; i++) {
       addDestination(eventList[i].coord, eventList[i].name);
     }
 
@@ -137,7 +192,7 @@
     if (ishidden) {
       document.getElementById("listbtn").src = "../img/openeye.png";
       let ul = document.createElement("ul");
-      for(var i=0; i<eventList.length; i++) {
+      for (var i = 0; i < eventList.length; i++) {
         let event = eventList[i];
 
         let li = document.createElement("li");

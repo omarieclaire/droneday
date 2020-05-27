@@ -18,11 +18,11 @@
       coord: [-34.6037, -58.3816]
     },
     {
-      name: "Burlington, USA.",
+      name: "Burlington, USA",
       coord: [44.4759, -73.2121]
     },
     {
-      name: "Charlottetown, Canada”,
+      name: "Charlottetown, Canada",
       coord: [46.2382, -63.1311]
     },
     {

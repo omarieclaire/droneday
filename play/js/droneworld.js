@@ -159,7 +159,7 @@
 
     function addDestination(coordinate, name, link) {
       let marker = WE.marker(coordinate).addTo(earth);
-      let markup = '<a href="' + link + '" target="_blank">' + name + '</a>';
+      let markup = '<a href="' + link + '" target="_blank">' + name + ' </a>';
       coordList.push(coordinate);
       marker.bindPopup(markup, {
         maxWidth: 50,

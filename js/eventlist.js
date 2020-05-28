@@ -1,7 +1,7 @@
 const EVENTLIST = [{
     name: "Asheville, USA",
     coord: [35.5951, -82.5515],
-    link: "https://forrestbaer.com/"
+    link: ""
   },
   {
     name: "Bega, Australia",

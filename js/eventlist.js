@@ -39,12 +39,12 @@ const EVENTLIST = [{
     link: "https://youtu.be/NmPd74zECv"
   },
   {
-    name: "Edmonton ALTA USA",
+    name: "Edmonton, Canada",
     coord: [53.631611, -113.323975],
-    link: ""
+    link: "https://blog.beams.ca/2020/05/beams-presents-western-canada-drone-day_26.html"
   },
   {
-    name: "Edmonton, Alberta Canada",
+    name: "Edmonton, Canada",
     coord: [53.5461, -113.4938],
     link: ""
   },

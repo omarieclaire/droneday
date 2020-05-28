@@ -71,7 +71,7 @@ const EVENTLIST = [{
   {
     name: "Kingston, Canada",
     coord: [44.2312, -76.4860],
-    link: "ttps://www.twitch.tv/mrogalsky/"
+    link: "http://giss.tv:8000/wildernessradio.mp3"
   },
   {
     name: "Lille, France",

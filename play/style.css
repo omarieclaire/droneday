@@ -235,7 +235,7 @@ body {
   }
 }
 
-#event-list{
+#eventList{
   display: flex;
   flex: 1 1 33%;
   align-self: flex-start;
@@ -291,18 +291,15 @@ body {
   color: white;
   /* height: 8rem; */
   width: 15%;
-  opacity: 0.6;
+  opacity: 0.8;
 }
 
 .worldbutton:hover {opacity: 1}
-
-
 
 @media screen and (min-width: 981px) {
   .worldbutton{
      width: 1%;
      margin: 1rem;
-
   }
 }
 
@@ -321,8 +318,6 @@ body {
   color: blue;
   font-size: 10px;
 }
-
-
 
 /* @keyframes homage {
   0% {

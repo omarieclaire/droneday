@@ -73,11 +73,11 @@
   function toggleInfo() {
     if (infoHidden) {
       // document.getElementById("infobtn").src = "../img/questionalt.png";
-      let infoDiv = document.getElementById("event-list");
+      let infoDiv = document.getElementById("infoDiv");
       infoDiv.innerHTML = "hello";
 
     } else {
-      let infoDiv = document.getElementById("event-list");
+      let infoDiv = document.getElementById("infoDiv");
       infoDiv.innerHTML = "?";
     }
     infoHidden = !infoHidden;
@@ -103,14 +103,14 @@
         // <a href="LINK"> XXX</a>
         ul.appendChild(li);
       }
-      let eventDiv = document.getElementById("event-list");
+      let eventDiv = document.getElementById("eventList");
       eventDiv.appendChild(ul);
 
     } else {
       document.getElementById("listbtn").src = "../img/closedeye.png";
       // document.querySelector('#listbtn').innerHTML = 'Hidee';
 
-      let eventDiv = document.getElementById("event-list");
+      let eventDiv = document.getElementById("eventList");
       eventDiv.innerHTML = "";
 
       // let button = document.getElementById("listbtn");

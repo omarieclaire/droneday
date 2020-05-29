@@ -67,6 +67,23 @@
     panTo(randomCoord);
   }
 
+
+  var infoHidden = true;
+
+  function toggleInfo() {
+    if (infoHidden) {
+      // document.getElementById("infobtn").src = "../img/questionalt.png";
+      let infoDiv = document.getElementById("event-list");
+      infoDiv.innerHTML = "hello";
+
+    } else {
+      let infoDiv = document.getElementById("event-list");
+      infoDiv.innerHTML = "?";
+    }
+    infoHidden = !infoHidden;
+  }
+
+
   var ishidden = true;
   function toggleEventList() {
     if (ishidden) {
@@ -78,7 +95,11 @@
         let li = document.createElement("li");
         // li.innerHTML = event.name;
         // to add links:
-        li.innerHTML = '<a target="_blank" href="' + event.link + '">' + event.name + '</a>'
+        li.innerHTML = '<a onclick="panTo([' + event.coord + ']);">' + event.name + '</a>'
+
+        // li.innerHTML = '<a target="_blank" href="' + event.link + '" onclick="panTo([10, -10]);">' + event.name + '</a>'
+
+
         // <a href="LINK"> XXX</a>
         ul.appendChild(li);
       }

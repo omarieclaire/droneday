@@ -202,33 +202,63 @@ body {
   left: 4px; */
 }
 
-
-#event-list{
+.allText{
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
   font-size: 1.5rem;
   padding: .5rem;
-  height: 80%;
+  height: 75%;
   overflow: scroll;
   margin: 1.5rem;
   top: 10rem;
 }
 
-#event-list a {
-  font-size: 1.5rem;
+.allText a {
+  /* font-size: 1.5rem; */
   color: #427aad;
   text-decoration: none;
 }
 
-#event-list a:hover {
-  font-size: 1.5rem;
+.allText a:hover {
   color: #29c200;
   text-decoration: none;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 981px) {
+  .allText{
+    font-size: 2rem;
+    top: 15%;
+  }
+}
+
+#event-list{
+  display: flex;
+  flex: 1 1 33%;
+  align-self: flex-start;
+  /* text-align: left; */
+  left: 1%;
 }
 
 @media screen and (min-width: 981px) {
   #event-list{
-    font-size: 2rem;
-    top: 25%;
-left: 1%;
+    /* left: 1%; */
+  }
+}
+
+#infoDiv{
+  display: flex;
+  flex: 1 1 33%;
+  /* justify-content: right; */
+  align-self: flex-end;
+  right: 1%;
+}
+
+@media screen and (min-width: 981px) {
+  #infoDiv{
   }
 }
 

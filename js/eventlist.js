@@ -1,6 +1,6 @@
 const EVENTLIST = [
 
-  "{
+ {
       name: "Asheville, USA",
       coord: [35.5951, -82.5515]
     },{
@@ -141,5 +141,5 @@ const EVENTLIST = [
     },{
       name: "Western North Carolina, USA",
       coord: [35.8257, -82.0407]
-    },"
+    },
 ];

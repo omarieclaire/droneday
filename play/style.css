@@ -211,7 +211,7 @@ body {
   /* width: 25%; */
   font-size: 1.3rem;
   padding: .5rem;
-  height: 75%;
+  height: 85%;
   overflow: scroll;
   margin: 1.5rem;
   top: 10rem;
@@ -231,8 +231,9 @@ body {
 
 @media screen and (min-width: 981px) {
   .allText{
+    height: 70%;
     font-size: 2rem;
-    top: 16%;
+    top: 17%;
   }
 }
 
@@ -249,7 +250,7 @@ body {
 }
 
 #infoDiv{
-  display: flex;
+  /* display: flex; */
   flex: 1 1 33%;
   /* justify-content: right; */
 

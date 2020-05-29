@@ -22,36 +22,16 @@ coord: [-36.701317, 149.843248],
 link: "https://the5thvolt.com/2020/05/25/world-drone-day-2020/"
 },{
 name: "Berlin, Germany",
-coord: [52.52045, 13.40732],
-link: "https://www.facebook.com/prairiewires/live"
-},{
-name: "Berlin, Germany",
-coord: [52.52045, 13.40732],
+coord: [53.52045, 13.40732],
 link: "http://dronerstag.club/"
 },{
 name: "Berlin, Germany",
-coord: [52.52045, 13.40732],
+coord: [51.52045, 13.40732],
 link: "seanceonline.de"
 },{
 name: "Berlin, Germany",
 coord: [52.52045, 13.40732],
-link: "https://www.facebook.com/dianabarbova and also on https://cashmereradio.com/"
-},{
-name: "Berlin, Germany",
-coord: [52.52045, 13.40732],
-link: "https://www.facebook.com/prairiewires/live"
-},{
-name: "Berlin, Germany",
-coord: [52.52045, 13.40732],
-link: "https://www.facebook.com/prairiewires/live"
-},{
-name: "Berlin, Germany",
-coord: [52.52045, 13.40732],
-link: "https://www.facebook.com/prairiewires/live"
-},{
-name: "Berlin, Germany",
-coord: [52.52045, 13.40732],
-link: "https://www.facebook.com/prairiewires/live"
+link: "https://www.facebook.com/dianabarbova"
 },{
 name: "Brookfield, IL, USA",
 coord: [41.824665, -87.850278],
@@ -89,29 +69,9 @@ name: "East Lansing, USA",
 coord: [42.736452, -84.479762],
 link: "https://youtu.be/NmPd74zECv"
 },{
-name: "Edmonton ALTA USA",
-coord: [42.672467, -95.305426],
-link: "https://pyramidindigo.bandcamp.com/album/pyramid-indigo-skin-split"
-},{
 name: "Edmonton, AB Canada",
 coord: [53.546218, -113.490371],
 link: "https://www.facebook.com/prairiewires/live"
-},{
-name: "Edmonton, AB Canada",
-coord: [53.546218, -113.490371],
-link: "https://www.facebook.com/prairiewires/live"
-},{
-name: "Edmonton, AB Canada",
-coord: [53.546218, -113.490371],
-link: "https://www.facebook.com/prairiewires/live"
-},{
-name: "Edmonton, AB Canada",
-coord: [53.546218, -113.490371],
-link: "https://www.facebook.com/prairiewires/live"
-},{
-name: "Edmonton, AB Canada",
-coord: [53.546218, -113.490371],
-link: ""
 },{
 name: "Erie, PA, USA",
 coord: [42.118688, -80.072076],
@@ -129,16 +89,12 @@ name: "Hamilton, Canada",
 coord: [43.276797, -80.027986],
 link: "https://dsfigital.bandcamp.com/ "
 },{
-name: "Hamilton, ON Canada",
-coord: [43.276797, -80.027986],
-link: "https://www.facebook.com/prairiewires/live"
-},{
 name: "Illinois, USA",
 coord: [40.265028, -89.191575],
 link: "soon?"
 },{
 name: "Johannesburg, South Africa",
-coord: [-26.151045, 27.974334],
+coord: [-27.151045, 27.974334],
 link: "https://www.facebook.com/coffinsoup"
 },{
 name: "Johannesburg, South Africa",
@@ -173,7 +129,7 @@ name: "Kitchener, Canada",
 coord: [43.418345, -80.468831],
 link: "https://www.instagram.com/ericowenrumble/"
 },{
-name: "Kolkata,India",
+name: "Kolkata, India",
 coord: [22.608067, 88.419453],
 link: ""
 },{
@@ -197,20 +153,16 @@ name: "Miami, USA",
 coord: [25.766368, -80.210268],
 link: "http://locus.creacast.com:9001/mobile_driftwood.ogg (Firefox or Chrome)"
 },{
-name: "Montreal Canada",
-coord: [45.572744, -73.586295],
-link: ""
-},{
-name: "Montreal, Canada",
-coord: [45.572744, -73.586295],
+name: "Montréal, Canada",
+coord: [45.572744, -74.586295],
 link: "https://www.twitch.tv/kaseypocius"
 },{
-name: "Montreal, Canada",
-coord: [45.572744, -73.586295],
+name: "Montréal, Canada",
+coord: [47.572744, -73.586295],
 link: "https://www.facebook.com/events/s/jeunesse-cosmique-byod-drone-d/599921094212713/?ti=icl"
 },{
 name: "Montréal, Canada",
-coord: [45.572744, -73.586295],
+coord: [46.572744, -73.586295],
 link: "https://www.twitch.tv/illestpreacha"
 },{
 name: "Moscow, Russia",
@@ -266,7 +218,7 @@ coord: [40.718804, -73.805154],
 link: "jensuis.bandcamp.com"
 },{
 name: "Regina SK Canada",
-coord: [50.448205, -104.619116],
+coord: [51.448205, -104.619116],
 link: "https://www.facebook.com/events/295125491505458/"
 },{
 name: "Regina SK Canada",
@@ -310,51 +262,39 @@ coord: [15.512883, 101.301707],
 link: "https://www.facebook.com/parasabda"
 },{
 name: "Toronto, Canada",
-coord: [43.64877, -79.38171],
+coord: [40.64877, -79.38171],
 link: "https://www.facebook.com/events/339000870350969/"
 },{
 name: "Toronto, Canada",
-coord: [43.64877, -79.38171],
+coord: [41.64877, -79.38171],
 link: "https://www.facebook.com/events/568133830775878/"
 },{
 name: "Toronto, Canada",
-coord: [43.64877, -79.38171],
+coord: [43.64877, -77.38171],
 link: "https://www.youtube.com/watch?v=15B-AvR5cPo&t=4s"
 },{
 name: "Toronto, Canada",
-coord: [43.64877, -79.38171],
+coord: [44.64877, -79.38171],
 link: "https://www.instagram.com/jsg_amok/"
 },{
 name: "Toronto, Canada",
 coord: [43.64877, -79.38171],
-link: "sunrise drone: https://youtu.be/kX58cXssspw and then a sunset drone: https://youtu.be/xfT-3sQ3m8A"
-},{
-name: "Toronto, Canada",
-coord: [43.64877, -79.38171],
-link: "soon?"
-},{
-name: "Toronto, Canada",
-coord: [43.64877, -79.38171],
-link: "https://www.facebook.com/prairiewires/live"
+link: "https://youtu.be/kX58cXssspw"
 },{
 name: "Vancouver BC Canada",
 coord: [49.2819, -123.11874],
 link: "http://www.kristinfung.com/events/2020/5/30/drone-day-livestream"
 },{
-name: "Vancouver BC Canada",
-coord: [49.2819, -123.11874],
-link: "https://www.facebook.com/prairiewires/live"
-},{
 name: "Vancouver Canada",
-coord: [49.2819, -123.11874],
+coord: [49.2819, -126.11874],
 link: "https://www.youtube.com/watch?v=4dQLDm8jBWQ"
 },{
 name: "Vancouver, BC Canada",
-coord: [49.2819, -123.11874],
+coord: [49.2819, -125.11874],
 link: "graham-peterson.bandcamp.com"
 },{
 name: "Vancouver, BC Canada",
-coord: [49.2819, -123.11874],
+coord: [49.2819, -124.11874],
 link: "https://groovedwhaleproject.com/"
 },{
 name: "Vancouver, BC Canada",
@@ -362,7 +302,7 @@ coord: [49.2819, -123.11874],
 link: "Twitch.com/x41_"
 },{
 name: "Vancouver, BC Canada",
-coord: [49.2819, -123.11874],
+coord: [48.2819, -123.11874],
 link: "https://www.facebook.com/prairiewires/live"
 },{
 name: "Vancouver, BC Canada",
@@ -388,53 +328,5 @@ link: "https://www.youtube.com/watch?v=hdMijUKcNt8"
 name: "Winnipeg Manitoba Canada",
 coord: [49.874557, -97.138026],
 link: "https://www.facebook.com/prairiewires/live"
-},{
-name: "Winnipeg, MB Canada",
-coord: [49.874557, -97.138026],
-link: "https://www.facebook.com/prairiewires/live"
-},{
-name: "Winnipeg, MB Canada",
-coord: [49.874557, -97.138026],
-link: "https://www.facebook.com/prairiewires/live"
-},{
-name: "Winnipeg, MB Canada",
-coord: [49.874557, -97.138026],
-link: "https://www.facebook.com/prairiewires/live"
-},{
-name: "Winnipeg, MB Canada",
-coord: [49.874557, -97.138026],
-link: "https://www.facebook.com/prairiewires/live"
-},{
-name: "Winnipeg, MB Canada",
-coord: [49.874557, -97.138026],
-link: "https://www.facebook.com/prairiewires/live"
-},{
-name: "Winnipeg, MB Canada",
-coord: [49.874557, -97.138026],
-link: "https://www.facebook.com/prairiewires/live"
-},{
-name: "Winnipeg, MB Canada",
-coord: [49.874557, -97.138026],
-link: "https://www.facebook.com/prairiewires/live"
-},{
-name: "Winnipeg, MB Canada",
-coord: [49.874557, -97.138026],
-link: "https://www.facebook.com/prairiewires/live"
-},{
-name: "Winnipeg, MB Canada",
-coord: [49.874557, -97.138026],
-link: "https://www.facebook.com/prairiewires/live"
-},{
-name: "Winnipeg, MB Canada",
-coord: [49.874557, -97.138026],
-link: "https://www.facebook.com/prairiewires/live"
-},{
-name: "Winnipeg, MB Canada",
-coord: [49.874557, -97.138026],
-link: "https://www.facebook.com/prairiewires/live"
-},{
-name: "Winnipeg, MB Canada",
-coord: [49.874557, -97.138026],
-link: "deakarina.net"
 },
 ];

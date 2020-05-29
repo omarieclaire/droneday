@@ -267,7 +267,7 @@ const EVENTLIST = [
   }, {
     name: "Welland, Canada",
     coord: [42.992832, -79.228938],
-    link: "coming soon"
+    link: "coming-soon"
   }, {
     name: "Western North Carolina, USA",
     coord: [35.387362, -78.455056],

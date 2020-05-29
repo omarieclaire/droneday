@@ -209,7 +209,7 @@ body {
   height: 80%;
   overflow: scroll;
   margin: 1.5rem;
-  top: 6rem;
+  top: 10rem;
 }
 
 #event-list a {
@@ -227,6 +227,8 @@ body {
 @media screen and (min-width: 981px) {
   #event-list{
     font-size: 2rem;
+    top: 25%;
+left: 1%;
   }
 }
 
@@ -238,16 +240,15 @@ body {
   align-items: center;
   font-size: 4rem;
   position: absolute;
-  /* right: 10px; */
-  margin-top: 1rem;
-  /* margin: 3rem; */
-  /* padding: 1rem; */
+  margin-top: 5%;
 }
 
 
 @media screen and (min-width: 981px) {
   .worldbuttondiv{
-    font-size: 2rem;
+    margin-top: 1%;
+
+    /* font-size: 2rem; */
   }
 }
 
@@ -259,7 +260,7 @@ body {
   padding: .5rem;
   color: white;
   /* height: 8rem; */
-  width: 14%;
+  width: 15%;
   opacity: 0.6;
 }
 
@@ -268,9 +269,10 @@ body {
 
 
 @media screen and (min-width: 981px) {
-  #worldbutton{
-    height: 6rem;
-    width: 7.5rem;
+  .worldbutton{
+     width: 1%;
+     margin: 1rem;
+
   }
 }
 

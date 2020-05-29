@@ -204,11 +204,12 @@ body {
 
 .allText{
   position: absolute;
-  display: flex;
-  flex-direction: row;
+  /* display: flex; */
+  /* flex-direction: row; */
   /* justify-content: space-between; */
   /* width: 100%; */
-  font-size: 1.5rem;
+  /* width: 25%; */
+  font-size: 1.3rem;
   padding: .5rem;
   height: 75%;
   overflow: scroll;
@@ -231,19 +232,19 @@ body {
 @media screen and (min-width: 981px) {
   .allText{
     font-size: 2rem;
-    top: 15%;
+    top: 16%;
   }
 }
 
 #eventList{
-  display: flex;
-  flex: 1 1 33%;
+  /* display: flex; */
+  /* flex: 1 1 33%; */
   left: 1%;
 }
 
 @media screen and (min-width: 981px) {
-  #event-list{
-    left: 1%;
+  #eventList{
+    left: 5%;
   }
 }
 

@@ -74,7 +74,7 @@
     if (infoHidden) {
       // document.getElementById("infobtn").src = "../img/questionalt.png";
       let infoDiv = document.getElementById("infoDiv");
-      infoDiv.innerHTML = 'Together we are droning together around the world. Please <a target="_blank" href="https://droneday.org/submit-event"> Join us!</a>';
+      infoDiv.innerHTML = '<a target="_blank" href="https://droneday.org/submit-event"> Join us!</a>';
 
     } else {
       let infoDiv = document.getElementById("infoDiv");

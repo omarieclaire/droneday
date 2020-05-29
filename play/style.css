@@ -251,7 +251,9 @@ body {
   display: flex;
   flex: 1 1 33%;
   /* justify-content: right; */
-  right: 1%;
+  /* right: 1%;
+  width: 25% */
+
 }
 
 @media screen and (min-width: 981px) {

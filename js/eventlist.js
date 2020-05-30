@@ -570,7 +570,7 @@ https://www.twitch.tv/prairiewiresconst EVENTLIST = [
   },{
   name: "Winnipeg MB Canada",
   coord: [49.874557, -97.138026],
-  link: "https://https://www.twitch.tv/prairiewires"
+  link: "https://www.twitch.tv/prairiewires"
   },
 
 ];

@@ -118,7 +118,7 @@ const EVENTLIST = [
   link: "https://youtu.be/NmPd74zECv"
   },{
   name: "Edmonton AB Canada",
-  coord: [42.672467, -95.305426],
+  coord: [53.546218, -113.490371],
   link: "https://pyramidindigo.bandcamp.com/album/pyramid-indigo-skin-split"
   },{
   name: "Edmonton AB Canada",

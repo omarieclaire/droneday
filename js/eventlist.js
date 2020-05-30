@@ -140,7 +140,7 @@ const EVENTLIST = [
     name: "Los Angeles, CA, USA",
     coord: [],
     link: "http://outu.bandcamp.com"
-  }, 
+  },
 
   {
     name: "Lille, France",
@@ -340,3 +340,24 @@ const EVENTLIST = [
     link: "https://www.facebook.com/prairiewires/live"
   },
 ];
+
+// this produces an array of arrays, where each
+// array in the array is a list of events with the same city.
+// [
+//   [ { name: "Berlin, DE"...}, {name: "Berlin, DE"}, ...],
+//   [ {name: "Vancouver", ...}, {name: "Vancouver"}, ...],
+//   [ {name: "Edmonton", ...} ],
+// ]
+// }
+const EVENTLIST_GROUPED = Object.values(EVENTLIST.reduce(function(obj, event) {
+  // check if the event name exists in the new map or not
+  if(!obj.hasOwnProperty(event.name)) {
+    // the new map does not have an element with the city event.name
+    // so we add an empty list for it.
+    obj[event.name] = [];
+  }
+
+  obj[event.name].push(event);
+
+  return obj;
+}, {}));

@@ -15,9 +15,20 @@
       attribution: 'NASA'
     }).addTo(earth);
 
-    function addDestination(coordinate, name, link) {
+    function addDestination(coordinate, name, links) {
       let marker = WE.marker(coordinate).addTo(earth);
-      let markup = '<a target="_blank" href="' + link + '" target="_blank">' + name + ' </a>';
+      var markup;
+      if(links.length === 1) {
+        var link = links[0];
+        markup = '<a href="' + link + '" target="_blank">' + name + ' </a>';
+      } else {
+        markup = name + '<br/><ul>';
+        for(var i=0; i < links.length; i++) {
+          markup = markup + '<li><a href="' + links[i] + '"target="_blank">drone ' + (i+1) + '</a></li>';
+        }
+        markup = markup + '</ul>';
+      }
+
       coordList.push(coordinate);
       marker.bindPopup(markup, {
         maxWidth: 50,
@@ -25,8 +36,11 @@
       })
     }
 
-    for (var i = 0; i < EVENTLIST.length; i++) {
-      addDestination(EVENTLIST[i].coord, EVENTLIST[i].name, EVENTLIST[i].link);
+    for (var i = 0; i < EVENTLIST_GROUPED.length; i++) {
+      var eventName = EVENTLIST_GROUPED[i][0].name;
+      var eventCoord = EVENTLIST_GROUPED[i][0].coord;
+      var links = EVENTLIST_GROUPED[i].map(event => event.link);
+      addDestination(eventCoord, eventName, links);
     }
 
     // var markerCustom = WE.marker([50, -9], '../img/logo-webglearth-white-100.png', 100, 24).addTo(earth);

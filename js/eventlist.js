@@ -7,7 +7,7 @@ const EVENTLIST = [
   },{
   name: "Asheville USA",
   coord: [35.589294, -82.554791],
-  link: "forrestbaer.com"
+  link: "https://forrestbaer.com/"
   },{
   name: "Atlanta, USA",
   coord: [33.769805, -84.414581],
@@ -175,7 +175,7 @@ const EVENTLIST = [
   },{
   name: "France",
   coord: [46.698481, 2.549047],
-  link: "www.driftofsignifieds.org"
+  link: "http://driftofsignifieds.org/"
   },{
   name: "Guelph ON Canada",
   coord: [43.546728, -80.236799],
@@ -271,7 +271,7 @@ const EVENTLIST = [
   },{
   name: "Miami USA",
   coord: [25.766368, -80.210268],
-  link: "http://locus.creacast.com:9001/mobile_driftwood.ogg (Firefox or Chrome)"
+  link: "http://locus.creacast.com:9001/mobile_driftwood.ogg"
   },{
   name: "Milan, Italy",
   coord: [45.473702, 9.170685],
@@ -371,7 +371,7 @@ const EVENTLIST = [
   },{
   name: "Queens NY USA",
   coord: [40.718804, -73.805154],
-  link: "jensuis.bandcamp.com"
+  link: "https://jensuis.bandcamp.com/"
   },{
   name: "Regina SK Canada",
   coord: [50.448205, -104.619116],
@@ -387,7 +387,7 @@ const EVENTLIST = [
   },{
   name: "Sackville NB Canada",
   coord: [45.916049, -64.390572],
-  link: "https://m.facebook.com/blackdimes"
+  link: "https://www.facebook.com/blackdimes"
   },{
   name: "Salt Spring Island BC Canada",
   coord: [48.8167, -123.5089],
@@ -395,7 +395,7 @@ const EVENTLIST = [
   },{
   name: "Samarinda Indonesia",
   coord: [-0.490842, 117.155943],
-  link: "Play.visualjalanan.org"
+  link: "https://play.visualjalanan.org/"
   },{
   name: "Saskatoon SK",
   coord: [52.13716, -106.648582],
@@ -415,7 +415,7 @@ const EVENTLIST = [
   },{
   name: "Tehran Iran",
   coord: [35.69439, 51.42151],
-  link: "www.xerxesthedark.bandcamp.com"
+  link: "https://xerxesthedark.bandcamp.com/"
   },{
   name: "Thailand",
   coord: [15.512883, 101.301707],
@@ -455,7 +455,7 @@ const EVENTLIST = [
   },{
   name: "Toronto ON Canada",
   coord: [43.64877, -79.38171],
-  link: "fb.com/kat.estacio"
+  link: "https://www.facebook.com/kat.estacio"
   },{
   name: "Toronto ON Canada",
   coord: [43.64877, -79.38171],
@@ -479,7 +479,7 @@ const EVENTLIST = [
   },{
   name: "Vancouver BC Canada",
   coord: [49.2819, -123.11874],
-  link: "graham-peterson.bandcamp.com"
+  link: "https://graham-peterson.bandcamp.com/releases"
   },{
   name: "Vancouver BC Canada",
   coord: [49.2819, -123.11874],
@@ -487,7 +487,7 @@ const EVENTLIST = [
   },{
   name: "Vancouver BC Canada",
   coord: [49.2819, -123.11874],
-  link: "Twitch.com/x41_"
+  link: "https://www.twitch.tv/x41_"
   },{
   name: "Vancouver BC Canada",
   coord: [49.2819, -123.11874],
@@ -571,9 +571,8 @@ const EVENTLIST = [
   },{
   name: "Winnipeg MB Canada",
   coord: [49.874557, -97.138026],
-  link: "deakarina.net"
+  link: "https://www.deakarina.net/"
   },
-
 
 ];
 

@@ -1,4 +1,4 @@
-const EVENTLIST = [
+https://www.twitch.tv/prairiewiresconst EVENTLIST = [
   {
   name: "Amsterdam The Netherlands",
   coord: [52.37243, 4.89973],
@@ -42,7 +42,7 @@ const EVENTLIST = [
   },{
   name: "Beausejour MB Canada",
   coord: [50.064852, -96.509862],
-  link: "https://www.https://www.twitch.tv/prairiewires"
+  link: "https://https://www.twitch.tv/prairiewires"
   },{
   name: "Bega Australia",
   coord: [-36.701317, 149.843248],
@@ -62,23 +62,23 @@ const EVENTLIST = [
   },{
   name: "Brandon MB Canada",
   coord: [49.841243, -99.943882],
-  link: "https://www.https://www.twitch.tv/prairiewires"
+  link: "https://https://www.twitch.tv/prairiewires"
   },{
   name: "Brandon MB Canada",
   coord: [49.841243, -99.943882],
-  link: "https://www.https://www.twitch.tv/prairiewires"
+  link: "https://https://www.twitch.tv/prairiewires"
   },{
   name: "Brandon MB Canada",
   coord: [49.841243, -99.943882],
-  link: "https://www.https://www.twitch.tv/prairiewires"
+  link: "https://https://www.twitch.tv/prairiewires"
   },{
   name: "Brandon MB Canada",
   coord: [49.841243, -99.943882],
-  link: "https://www.https://www.twitch.tv/prairiewires"
+  link: "https://https://www.twitch.tv/prairiewires"
   },{
   name: "Brandon MB Canada",
   coord: [49.841243, -99.943882],
-  link: "https://www.https://www.twitch.tv/prairiewires"
+  link: "https://https://www.twitch.tv/prairiewires"
   },{
   name: "Brookfield IL USA",
   coord: [41.824665, -87.850278],
@@ -162,19 +162,19 @@ const EVENTLIST = [
   },{
   name: "Edmonton AB Canada",
   coord: [53.546218, -113.490371],
-  link: "https://www.https://www.twitch.tv/prairiewires"
+  link: "https://https://www.twitch.tv/prairiewires"
   },{
   name: "Edmonton AB Canada",
   coord: [53.546218, -113.490371],
-  link: "https://www.https://www.twitch.tv/prairiewires"
+  link: "https://https://www.twitch.tv/prairiewires"
   },{
   name: "Edmonton AB Canada",
   coord: [53.546218, -113.490371],
-  link: "https://www.https://www.twitch.tv/prairiewires"
+  link: "https://https://www.twitch.tv/prairiewires"
   },{
   name: "Edmonton AB Canada",
   coord: [53.546218, -113.490371],
-  link: "https://www.https://www.twitch.tv/prairiewires"
+  link: "https://https://www.twitch.tv/prairiewires"
   },{
   name: "Edmonton AB Canada",
   coord: [53.546218, -113.490371],
@@ -210,7 +210,7 @@ const EVENTLIST = [
   },{
   name: "Hamilton ON Canada",
   coord: [43.276797, -80.027986],
-  link: "https://www.https://www.twitch.tv/prairiewires"
+  link: "https://https://www.twitch.tv/prairiewires"
   },{
   name: "Illinois USA",
   coord: [40.265028, -89.191575],
@@ -330,7 +330,7 @@ const EVENTLIST = [
   },{
   name: "New York US",
   coord: [40.68295, -73.9708],
-  link: "https://www.https://www.twitch.tv/prairiewires"
+  link: "https://www.twitch.tv/prairiewires"
   },{
   name: "Niagara Canada",
   coord: [43.08261, -79.101562],
@@ -342,7 +342,7 @@ const EVENTLIST = [
   },{
   name: "Normandy FR",
   coord: [49.307166, 0.890389],
-  link: "https://www.https://www.twitch.tv/prairiewires"
+  link: "https://www.twitch.tv/prairiewires"
   },{
   name: "Oaxaca Mexico",
   coord: [17.025593, -96.819523],
@@ -398,7 +398,7 @@ const EVENTLIST = [
   },{
   name: "Regina SK Canada",
   coord: [50.448205, -104.619116],
-  link: "https://www.https://www.twitch.tv/prairiewires"
+  link: "https://www.twitch.tv/prairiewires"
   },{
   name: "Richmond VA US",
   coord: [37.519231, -77.473927],
@@ -418,7 +418,7 @@ const EVENTLIST = [
   },{
   name: "Saskatoon SK",
   coord: [52.13716, -106.648582],
-  link: "https://www.https://www.twitch.tv/prairiewires"
+  link: "https://www.twitch.tv/prairiewires"
   },{
   name: "Seattle USA",
   coord: [47.673455, -122.331537],
@@ -474,7 +474,7 @@ const EVENTLIST = [
   },{
   name: "Toronto ON Canada",
   coord: [43.64877, -79.38171],
-  link: "https://www.https://www.twitch.tv/prairiewires"
+  link: "https://www.twitch.tv/prairiewires"
   },{
   name: "Toronto ON Canada",
   coord: [43.64877, -79.38171],
@@ -494,7 +494,7 @@ const EVENTLIST = [
   },{
   name: "Vancouver BC Canada",
   coord: [49.2819, -123.11874],
-  link: "https://www.https://www.twitch.tv/prairiewires"
+  link: "https://www.twitch.tv/prairiewires"
   },{
   name: "Vancouver BC Canada",
   coord: [49.2819, -123.11874],
@@ -514,7 +514,7 @@ const EVENTLIST = [
   },{
   name: "Vancouver BC Canada",
   coord: [49.2819, -123.11874],
-  link: "https://www.https://www.twitch.tv/prairiewires"
+  link: "https://www.twitch.tv/prairiewires"
   },{
   name: "Vancouver BC Canada",
   coord: [49.2819, -123.11874],
@@ -530,7 +530,7 @@ const EVENTLIST = [
   },{
   name: "Wawken SK",
   coord: [48.752408, 19.201811],
-  link: "https://www.https://www.twitch.tv/prairiewires"
+  link: "https://www.twitch.tv/prairiewires"
   },{
   name: "Welland Canada",
   coord: [42.992832, -79.228938],
@@ -546,31 +546,31 @@ const EVENTLIST = [
   },{
   name: "Winnipeg MB Canada",
   coord: [49.874557, -97.138026],
-  link: "https://www.https://www.twitch.tv/prairiewires"
+  link: "https://www.twitch.tv/prairiewires"
   },{
   name: "Winnipeg MB Canada",
   coord: [49.874557, -97.138026],
-  link: "https://www.https://www.twitch.tv/prairiewires"
+  link: "https://www.twitch.tv/prairiewires"
   },{
   name: "Winnipeg MB Canada",
   coord: [49.874557, -97.138026],
-  link: "https://www.https://www.twitch.tv/prairiewires"
+  link: "https://www.twitch.tv/prairiewires"
   },{
   name: "Winnipeg MB Canada",
   coord: [49.874557, -97.138026],
-  link: "https://www.https://www.twitch.tv/prairiewires"
+  link: "https://www.twitch.tv/prairiewires"
   },{
   name: "Winnipeg MB Canada",
   coord: [49.874557, -97.138026],
-  link: "https://www.https://www.twitch.tv/prairiewires"
+  link: "https://www.twitch.tv/prairiewires"
   },{
   name: "Winnipeg MB Canada",
   coord: [49.874557, -97.138026],
-  link: "https://www.https://www.twitch.tv/prairiewires"
+  link: "https://www.twitch.tv/prairiewires"
   },{
   name: "Winnipeg MB Canada",
   coord: [49.874557, -97.138026],
-  link: "https://www.https://www.twitch.tv/prairiewires"
+  link: "https://https://www.twitch.tv/prairiewires"
   },
 
 ];

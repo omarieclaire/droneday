@@ -425,3 +425,10 @@ div.we-pm-icon {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+div.we-pp-wrapper div.we-pp-tip {
+    padding: 10px;
+    text-align: center;
+    border-radius:0px;
+    color: white;
+}

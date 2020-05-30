@@ -15,7 +15,7 @@ const EVENTLIST = [
  },{
  name: "Barcelona Spain",
  coord: [41.400347, 2.159592],
- link: "soon?"
+ link: "https://joanjordioliver.com/"
  },{
  name: "Beausejour MB Canada",
  coord: [50.064852, -96.509862],
@@ -69,9 +69,13 @@ const EVENTLIST = [
  coord: [36.083216, -79.452385],
  link: "https://www.facebook.com/vermontdroneday"
  },{
+ name: "Calgary AB Canada",
+ coord: [51.056508, -114.033822],
+ link: "https://kerrymaguire.com/"
+ },{
  name: "Canberra Australia",
  coord: [-35.283029, 149.129026],
- link: ""
+ link: "https://www.facebook.com/MarleneClaudineRadice/"
  },{
  name: "Charlottetown PEI Canada",
  coord: [46.2382, -63.1311],
@@ -91,15 +95,11 @@ const EVENTLIST = [
  },{
  name: "Denmark Western Australia",
  coord: [-34.96617, 117.357405],
- link: "soon?"
+ link: "https://droneday.org/listen"
  },{
  name: "East Lansing USA",
  coord: [42.736452, -84.479762],
  link: "https://youtu.be/NmPd74zECv"
- },{
- name: "Edmonton AB Canada",
- coord: [],
- link: ""
  },{
  name: "Edmonton AB Canada",
  coord: [42.672467, -95.305426],
@@ -123,7 +123,7 @@ const EVENTLIST = [
  },{
  name: "Edmonton AB Canada",
  coord: [53.546218, -113.490371],
- link: ""
+ link: "https://droneday.org/listen"
  },{
  name: "Erie PA USA",
  coord: [42.118688, -80.072076],
@@ -131,7 +131,7 @@ const EVENTLIST = [
  },{
  name: "Guelph ON Canada",
  coord: [43.546728, -80.236799],
- link: ""
+ link: "https://www.garydiggins.com/"
  },{
  name: "Halifax NS Canada",
  coord: [44.64533, -63.57239],
@@ -147,7 +147,7 @@ const EVENTLIST = [
  },{
  name: "Illinois USA",
  coord: [40.265028, -89.191575],
- link: "soon?"
+ link: "https://webcache.googleusercontent.com/search?q=cache:WR4Rnfz9bJUJ:https://eyescastdown.com/+&cd=1&hl=en&ct=clnk&gl=ca"
  },{
  name: "Johannesburg South Africa",
  coord: [-26.151045, 27.974334],
@@ -167,11 +167,11 @@ const EVENTLIST = [
  },{
  name: "Kenya",
  coord: [0.543716, 37.918308],
- link: "soon"
+ link: "https://www.facebook.com/K4MARU/about/"
  },{
  name: "Khon Kaen Thailand",
  coord: [16.43967, 102.81935],
- link: ""
+ link: "http://droneday.org/listen"
  },{
  name: "King of Prussia USA",
  coord: [40.099005, -75.381366],
@@ -187,7 +187,7 @@ const EVENTLIST = [
  },{
  name: "Kolkata India",
  coord: [22.608067, 88.419453],
- link: ""
+ link: "https://havedjabib.bandcamp.com/"
  },{
  name: "Lille France",
  coord: [50.632786, 3.059524],
@@ -215,7 +215,7 @@ const EVENTLIST = [
  },{
  name: "Montréal Canada",
  coord: [45.572744, -73.586295],
- link: ""
+ link: "http://www.alexandresaunier.com/info/"
  },{
  name: "Montréal Canada",
  coord: [45.572744, -73.586295],
@@ -231,7 +231,7 @@ const EVENTLIST = [
  },{
  name: "Moscow Russia",
  coord: [55.741469, 37.615561],
- link: ""
+ link: "https://ya.codes/"
  },{
  name: "New York US",
  coord: [40.68295, -73.9708],
@@ -243,7 +243,7 @@ const EVENTLIST = [
  },{
  name: "Nigeria",
  coord: [9.404974, 7.607418],
- link: ""
+ link: "https://1beat.org/people/ibukun-emuwawon/"
  },{
  name: "Normandy FR",
  coord: [49.307166, 0.890389],
@@ -251,7 +251,7 @@ const EVENTLIST = [
  },{
  name: "Oaxaca Mexico",
  coord: [17.025593, -96.819523],
- link: ""
+ link: "https://droneday.org/listen"
  },{
  name: "Olympia WA USA",
  coord: [47.047456, -122.896902],
@@ -311,7 +311,7 @@ const EVENTLIST = [
  },{
  name: "Seattle USA",
  coord: [47.673455, -122.331537],
- link: ""
+ link: "https://droneday.org/listen"
  },{
  name: "Someplace",
  coord: [41.9147, -71.90894],
@@ -343,11 +343,15 @@ const EVENTLIST = [
  },{
  name: "Toronto ON Canada",
  coord: [43.64877, -79.38171],
- link: "sunrise drone: https://youtu.be/kX58cXssspw and then a sunset drone: https://youtu.be/xfT-3sQ3m8A"
+ link: "https://youtu.be/kX58cXssspw"
  },{
  name: "Toronto ON Canada",
  coord: [43.64877, -79.38171],
- link: "soon?"
+ link: "https://youtu.be/xfT-3sQ3m8A"
+ },{
+ name: "Toronto ON Canada",
+ coord: [43.64877, -79.38171],
+ link: "https://soundcloud.com/cetaceansongs"
  },{
  name: "Toronto ON Canada",
  coord: [43.64877, -79.38171],
@@ -389,13 +393,17 @@ const EVENTLIST = [
  coord: [49.2819, -123.11874],
  link: "https://youtu.be/cp-yqP9yWUg"
  },{
+ name: "Vancouver BC Canada",
+ coord: [49.2819, -123.11874],
+ link: "https://www.facebook.com/lylehopkins/posts/2393677834265610"
+ },{
  name: "Wawken SK",
  coord: [48.752408, 19.201811],
  link: "https://www.facebook.com/prairiewires/live"
  },{
  name: "Welland Canada",
  coord: [42.992832, -79.228938],
- link: "soon?"
+ link: "https://www.facebook.com/JFMmusic/"
  },{
  name: "Western North Carolina USA",
  coord: [35.387362, -78.455056],

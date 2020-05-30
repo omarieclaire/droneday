@@ -251,7 +251,7 @@ const EVENTLIST = [
   },{
   name: "Kingston Ontario Canada",
   coord: [44.263277, -76.524396],
-  link: "https://www.twitch.tv/mrogalsky/"
+  link: "http://giss.tv:8000/wildernessradio.mp3"
   },{
   name: "Kitchener Canada",
   coord: [43.418345, -80.468831],

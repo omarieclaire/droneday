@@ -210,7 +210,7 @@ link: "https://youtu.be/uHGgDH1A8ZU"
 },{
 name: "Kenya",
 coord: [0.543716, 37.918308],
-link: "https://www.facebook.com/K4MARU/about/"
+link: "https://kmru.bandcamp.com/album/saal"
 },{
 name: "Khon Kaen Thailand",
 coord: [16.43967, 102.81935],

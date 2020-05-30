@@ -818,7 +818,8 @@ form .largetextarea {
 }
 
 .playbutton:hover{
-  background-color: #fd7296;
+  background-color: #7242c7;
+  cursor: pointer;
 }
 
 .playbutton::before{

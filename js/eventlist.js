@@ -1,5 +1,4 @@
 const EVENTLIST = [
-
   {
   name: "Amsterdam The Netherlands",
   coord: [52.37243, 4.89973],
@@ -12,6 +11,14 @@ const EVENTLIST = [
   name: "Bangkok Thailand",
   coord: [13.881591, 100.644533],
   link: "https://www.facebook.com/spacewarTH/"
+  },{
+  name: "Bangkok, Thailand",
+  coord: [13.881591, 100.644533],
+  link: "https://www.facebook.com/iPlayAloneD/videos/681512792628836?sfns=mo"
+  },{
+  name: "Bangkok, Thailand",
+  coord: [13.881591, 100.644533],
+  link: "https://www.facebook.com/spacewarTH/videos/3252015794832070/"
   },{
   name: "Barcelona Spain",
   coord: [41.400347, 2.159592],
@@ -88,6 +95,10 @@ const EVENTLIST = [
   name: "Cape Town",
   coord: [-33.915366, 18.543149],
   link: "http://giss.tv:8001/skicrime.mp3"
+  },{
+  name: "Cape Town, South Africa ",
+  coord: [-33.915366, 18.543149],
+  link: "https://thylasine.bandcamp.com/"
   },{
   name: "Charlottetown PEI Canada",
   coord: [46.2382, -63.1311],
@@ -175,7 +186,7 @@ const EVENTLIST = [
   },{
   name: "Johannesburg South Africa",
   coord: [-26.151045, 27.974334],
-  link: "www.further.co.za"
+  link: "http://www.further.co.za"
   },{
   name: "Kelaniya Sri Lanka",
   coord: [6.9553, 79.922],
@@ -192,6 +203,10 @@ const EVENTLIST = [
   name: "Khon Kaen Thailand",
   coord: [16.43967, 102.81935],
   link: "http://droneday.org/listen"
+  },{
+  name: "Khon Kaen, Thailand",
+  coord: [16.50836, 102.697249],
+  link: "https://www.facebook.com/nutchaponchoosakul/videos/3525091737519548/?d=n"
   },{
   name: "King of Prussia USA",
   coord: [40.099005, -75.381366],
@@ -229,6 +244,10 @@ const EVENTLIST = [
   coord: [34.05513, -118.25703],
   link: "https://www.youtube.com/watch?v=vQnSjm1NP9c&feature=youtu.be"
   },{
+  name: "Los Angeles USA",
+  coord: [34.05513, -118.25703],
+  link: "https://www.twitch.tv/grefex"
+  },{
   name: "Miami USA",
   coord: [25.766368, -80.210268],
   link: "http://locus.creacast.com:9001/mobile_driftwood.ogg (Firefox or Chrome)"
@@ -240,6 +259,10 @@ const EVENTLIST = [
   name: "Montréal Canada",
   coord: [45.572744, -73.586295],
   link: "http://www.alexandresaunier.com/info/"
+  },{
+  name: "Montréal Canada",
+  coord: [45.572744, -73.586295],
+  link: "https://soundcloud.com/doldrumss/drone-day-2020-errhead-ylang-ylang"
   },{
   name: "Montréal Canada",
   coord: [45.572744, -73.586295],
@@ -304,6 +327,10 @@ const EVENTLIST = [
   name: "Peterborough Canada",
   coord: [44.597936, -78.103469],
   link: "http://trentradio.ca/"
+  },{
+  name: "Pittsburgh, PA",
+  coord: [, ],
+  link: "https://www.facebook.com/LeonidsAmbient/"
   },{
   name: "Portland OR USA",
   coord: [45.533467, -122.650095],
@@ -396,6 +423,10 @@ const EVENTLIST = [
   name: "Toronto ON Canada",
   coord: [43.64877, -79.38171],
   link: "http://www.twitch.tv/hanginwithkat"
+  },{
+  name: "Toronto, Canada",
+  coord: [43.64877, -79.38171],
+  link: "http://facebook.com/deltawillmusic"
   },{
   name: "Vancouver BC Canada",
   coord: [49.2819, -123.11874],

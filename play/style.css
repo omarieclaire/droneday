@@ -295,10 +295,10 @@ body {
 
 .worldbutton:hover {opacity: 1}
 
-@media screen and (min-width: 981px) {
+@media screen and (min-width: 941px) {
   .worldbutton{
-     width: 1%;
-     margin: 1rem;
+     width: 7%;
+     /* box-shadow:         12px 12px 29px #555; */
   }
 }
 
@@ -422,4 +422,6 @@ body {
 
 div.we-pm-icon {
   background-image: url("img/marker.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }

@@ -55,7 +55,7 @@ const EVENTLIST = [
   },{
   name: "Berlin Germany",
   coord: [52.52045, 13.40732],
-  link: "https://www.facebook.com/dianabarbova and also on https://cashmereradio.com/"
+  link: "https://www.facebook.com/dianabarbova"
   },{
   name: "Berlin Germany",
   coord: [52.52045, 13.40732],

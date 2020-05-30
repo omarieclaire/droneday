@@ -419,3 +419,7 @@ body {
     color: #ff0081;
   }
 }
+
+div.we-pm-icon {
+  background-image: url("img/marker.png");
+}

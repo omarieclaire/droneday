@@ -156,7 +156,7 @@ body {
 }
 
 .pads>div::before {
-  content: "^";
+  /* content: "^";
   color: white;
   font-size: .01rem;
   border-radius: 50%;
@@ -164,7 +164,7 @@ body {
   width: 5vh;
   height: 5vh;
   top: 1vh;
-  left: 2vh;
+  left: 2vh; */
 }
 
 .pads>div::after {

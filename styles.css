@@ -782,8 +782,10 @@ form .largetextarea {
 .playbuttondiv{
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
+  align-self: center;
   align-items: center;
+  justify-content: center;
   font-size: 4rem;
   margin-top: 1rem;
 }
@@ -799,17 +801,43 @@ form .largetextarea {
   /* flex-grow: 1; */
   /* flex-shrink: 1; */
   flex-basis: 10%;
-  margin: 1rem;
   padding: .5rem;
   color: white;
-  height: 8rem;
-  width: 9.5rem;
+  /* height: 8rem; */
+  width: 100%;
+  background-color: #f54874;
+  /* outline: 5px double #808080; */
 }
-
 
 @media screen and (min-width: 981px) {
   #playbutton{
-    height: 6rem;
-    width: 7.5rem;
+    /* height: 6rem; */
+    width: 100%;
+    margin: 0;
   }
+}
+
+.playbutton:hover{
+  background-color: #fd7296;
+}
+
+.playbutton::before{
+  /* content: "Drone World"; */
+  /* border-radius: 50%; */
+  /* color: blue; */
+  /* font-size: 100rem; */
+  /* border-radius: 50%; */
+  /* position: absolute; */
+  /* width: 1rem; */
+  /* height: 1rem; */
+  /* top: 1rem; */
+  /* left: 1rem; */
+}
+
+
+
+.playbuttoncaption{
+  font-size: 1rem;
+  text-align: center;
+  color: #f54874;
 }

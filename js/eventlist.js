@@ -1,5 +1,4 @@
 const EVENTLIST = [
-
   {
   name: "Amsterdam The Netherlands",
   coord: [52.37243, 4.89973],

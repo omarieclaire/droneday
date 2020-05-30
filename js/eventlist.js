@@ -64,22 +64,6 @@ https://www.twitch.tv/prairiewiresconst EVENTLIST = [
   coord: [49.841243, -99.943882],
   link: "https://https://www.twitch.tv/prairiewires"
   },{
-  name: "Brandon MB Canada",
-  coord: [49.841243, -99.943882],
-  link: "https://https://www.twitch.tv/prairiewires"
-  },{
-  name: "Brandon MB Canada",
-  coord: [49.841243, -99.943882],
-  link: "https://https://www.twitch.tv/prairiewires"
-  },{
-  name: "Brandon MB Canada",
-  coord: [49.841243, -99.943882],
-  link: "https://https://www.twitch.tv/prairiewires"
-  },{
-  name: "Brandon MB Canada",
-  coord: [49.841243, -99.943882],
-  link: "https://https://www.twitch.tv/prairiewires"
-  },{
   name: "Brookfield IL USA",
   coord: [41.824665, -87.850278],
   link: "https://www.youtube.com/channel/UCqPMR4A5ixal9dV01Xj4Ecw/featured"
@@ -522,10 +506,6 @@ https://www.twitch.tv/prairiewiresconst EVENTLIST = [
   },{
   name: "Vancouver BC Canada",
   coord: [49.2819, -123.11874],
-  link: "https://youtu.be/cp-yqP9yWUg"
-  },{
-  name: "Vancouver BC Canada",
-  coord: [49.2819, -123.11874],
   link: "https://www.facebook.com/lylehopkins/posts/2393677834265610"
   },{
   name: "Wawken SK",
@@ -543,30 +523,6 @@ https://www.twitch.tv/prairiewiresconst EVENTLIST = [
   name: "Whitehorse Yukon Canada",
   coord: [60.703204, -135.074767],
   link: "https://www.facebook.com/events/255381088998998/"
-  },{
-  name: "Winnipeg MB Canada",
-  coord: [49.874557, -97.138026],
-  link: "https://www.twitch.tv/prairiewires"
-  },{
-  name: "Winnipeg MB Canada",
-  coord: [49.874557, -97.138026],
-  link: "https://www.twitch.tv/prairiewires"
-  },{
-  name: "Winnipeg MB Canada",
-  coord: [49.874557, -97.138026],
-  link: "https://www.twitch.tv/prairiewires"
-  },{
-  name: "Winnipeg MB Canada",
-  coord: [49.874557, -97.138026],
-  link: "https://www.twitch.tv/prairiewires"
-  },{
-  name: "Winnipeg MB Canada",
-  coord: [49.874557, -97.138026],
-  link: "https://www.twitch.tv/prairiewires"
-  },{
-  name: "Winnipeg MB Canada",
-  coord: [49.874557, -97.138026],
-  link: "https://www.twitch.tv/prairiewires"
   },{
   name: "Winnipeg MB Canada",
   coord: [49.874557, -97.138026],

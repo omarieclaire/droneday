@@ -54,7 +54,7 @@ https://www.twitch.tv/prairiewiresconst EVENTLIST = [
   },{
   name: "Berlin Germany",
   coord: [52.52045, 13.40732],
-  link: "seanceonline.de"
+  link: "http://www.seanceonline.de/"
   },{
   name: "Berlin Germany",
   coord: [52.52045, 13.40732],
@@ -408,7 +408,7 @@ https://www.twitch.tv/prairiewiresconst EVENTLIST = [
   coord: [47.673455, -122.331537],
   link: "https://droneday.org/listen"
   },{
-  name: "Sofia, Bulgaria",
+  name: "Sofia, Bulgaria (in spirit)",
   coord: [42.685984, 23.326714],
   link: "https://amekcollective.bandcamp.com/album/op-1"
   },{

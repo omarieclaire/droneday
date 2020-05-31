@@ -30,7 +30,7 @@ link: "https://www.facebook.com/spacewarTH/videos/3252015794832070/"
 },{
 name: "Barcelona Spain",
 coord: [41.400347, 2.159592],
-link: "http://droneday.org/sound/jooliver2020.html"
+link: "https://soundcloud.com/user-746659561/whispering-sounds"
 },{
 name: "Barnet UK",
 coord: [51.613152, -0.208621],

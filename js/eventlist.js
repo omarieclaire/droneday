@@ -1,4 +1,4 @@
-https://www.twitch.tv/prairiewiresconst EVENTLIST = [
+EVENTLIST = [
   {
 name: "Amsterdam Netherlands",
 coord: [52.37243, 4.89973],

@@ -182,7 +182,7 @@ link: "https://www.twitch.tv/prairiewires"
 },{
 name: "Illinois USA",
 coord: [40.265028, -89.191575],
-link: "https://webcache.googleusercontent.com/search?q=cache:WR4Rnfz9bJUJ:https://eyescastdown.com/+&cd=1&hl=en&ct=clnk&gl=ca"
+link: "https://kalindimusic.bandcamp.com/album/personal-bhajan"
 },{
 name: "Johannesburg South Africa",
 coord: [-26.151045, 27.974334],

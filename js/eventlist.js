@@ -150,7 +150,7 @@ link: "https://www.twitch.tv/prairiewires"
 },{
 name: "Erie PA USA",
 coord: [42.118688, -80.072076],
-link: "https://www.facebook.com/events/684306978803283/"
+link: "https://www.youtube.com/watch?v=BXUzOo-0VL8&feature=youtu.be"
 },{
 name: "France",
 coord: [46.698481, 2.549047],
@@ -234,7 +234,7 @@ link: "https://www.twitch.tv/tommyjarviskngs"
 },{
 name: "Logroño Spain",
 coord: [42.464869, -2.451918],
-link: "http://thurk.org:8103"
+link: "https://u.pcloud.link/publink/show?code=XZd7stkZsrvYjC7lPTSQWa8P0MshDBEouuzV"
 },{
 name: "London England",
 coord: [51.509648, -0.099076],
@@ -378,7 +378,7 @@ link: "https://www.facebook.com/blackdimes"
 },{
 name: "Salt Spring Island BC Canada",
 coord: [48.8167, -123.5089],
-link: "https://www.facebook.com/events/549807732388271/ "
+link: "https://www.facebook.com/watch/?v=728143977990856 "
 },{
 name: "Samarinda Indonesia",
 coord: [-0.490842, 117.155943],
@@ -458,7 +458,7 @@ link: "http://facebook.com/deltawillmusic"
 },{
 name: "Vancouver BC Canada",
 coord: [49.2819, -123.11874],
-link: "http://www.kristinfung.com/events/2020/5/30/drone-day-livestream"
+link: "https://www.instagram.com/tv/CA0r53oAJ_x/"
 },{
 name: "Vancouver BC Canada",
 coord: [49.2819, -123.11874],

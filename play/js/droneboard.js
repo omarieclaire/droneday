@@ -43,7 +43,7 @@ window.addEventListener("load", () => {
       createchild(index);
     };
     pad.addEventListener("touchend", handleClick, false);
-    pad.addEventListener("click", handleClick);
+    pad.addEventListener("touchstart", handleClick);
   });
 
   const createchild = index => { //Create child

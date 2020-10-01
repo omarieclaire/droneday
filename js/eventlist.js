@@ -95,7 +95,13 @@ link: "http://giss.tv:8001/skicrime.mp3"
 name: "Cape Town, South Africa ",
 coord: [-33.915366, 18.543149],
 link: "https://thylasine.bandcamp.com/"
-},{
+},
+{
+name: "Cape Town, South Africa ",
+coord: [-33.915366, 18.543149],
+link: "https://hashtagblacknoise.bandcamp.com/album/wegsdffgbq"
+},
+{
 name: "Carbondale Illinois",
 coord: [37.721036, -89.22239],
 link: "https://www.youtube.com/watch?v=FiMJHq2la3E"

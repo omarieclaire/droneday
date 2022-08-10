@@ -101,7 +101,7 @@
   var ishidden = true;
   function toggleEventList() {
     if (ishidden) {
-      document.getElementById("listbtn").src = "https://media.githubusercontent.com/media/omarieclaire/omarieclaire.github.io/master/img/openeye.png";
+      document.getElementById("listbtn").src = "https://media.githubusercontent.com/media/omarieclaire/omarieclaire.github.io/master/play/img/openeye.png";
       let ul = document.createElement("ul");
       for (var i = 0; i < EVENTLIST.length; i++) {
         let event = EVENTLIST[i];
@@ -121,7 +121,7 @@
       eventDiv.appendChild(ul);
 
     } else {
-      document.getElementById("listbtn").src = "https://media.githubusercontent.com/media/omarieclaire/omarieclaire.github.io/master/img/closedeye.png";
+      document.getElementById("listbtn").src = "https://media.githubusercontent.com/media/omarieclaire/omarieclaire.github.io/master/play/img/closedeye.png";
       // document.querySelector('#listbtn').innerHTML = 'Hidee';
 
       let eventDiv = document.getElementById("eventList");

@@ -1,12 +1,9 @@
-// google drive stuff
-
 // Client ID and API key from the Developer Console
 var CLIENT_ID = 'common-d2ecf';
 var api_key = 'AIzaSyALlQNEoMXQtNqq4v1S61ZiBg98NScwt6I';
 
 var folderId = '1uDSd4nvFzlcstRy2xQ_SRbrO1czS5mGv';
 var url = "https://www.googleapis.com/drive/v3/files?q='" + folderId + "'+in+parents&fields=files(mimeType%2CwebContentLink)&key=" + api_key;
-
 
 const Http = new XMLHttpRequest();
 Http.addEventListener("load", function() {

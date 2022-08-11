@@ -43,7 +43,7 @@
       addDestination(eventCoord, eventName, links);
     }
 
-    // var markerCustom = WE.marker([50, -9], '../img/logo-webglearth-white-100.png', 100, 24).addTo(earth);
+    // var markerCustom = WE.marker([50, -9], 'https://media.githubusercontent.com/media/omarieclaire/omarieclaire.github.io/master/img/logo-webglearth-white-100.png', 100, 24).addTo(earth);
   }
 
   var before = null;
@@ -53,7 +53,7 @@
     // this is a recursive function
     requestAnimationFrame(function animate(now) {
       if (!toggle) {
-        document.getElementById("spinbtn").src = "../img/spin.png";
+        document.getElementById("spinbtn").src = "https://media.githubusercontent.com/media/omarieclaire/omarieclaire.github.io/master/img/spin.png";
         before = null;
         // break out of the recursion by exiting the function
         return;
@@ -64,7 +64,7 @@
       earth.setCenter([c[0], c[1] + 0.1 * (elapsed / 30)]);
       // here is where we "recurse"
       requestAnimationFrame(animate);
-      document.getElementById("spinbtn").src = "../img/stopspin.png";
+      document.getElementById("spinbtn").src = "https://media.githubusercontent.com/media/omarieclaire/omarieclaire.github.io/master/img/stopspin.png";
     });
     toggle = !toggle;
   }
@@ -86,7 +86,7 @@
 
   function toggleInfo() {
     if (infoHidden) {
-      // document.getElementById("infobtn").src = "../img/questionalt.png";
+      // document.getElementById("infobtn").src = "https://media.githubusercontent.com/media/omarieclaire/omarieclaire.github.io/master/img/questionalt.png";
       let infoDiv = document.getElementById("infoDiv");
       infoDiv.innerHTML = '<a target="_blank" href="https://droneday.org/submit-event"> Join us!</a>';
 
@@ -101,7 +101,7 @@
   var ishidden = true;
   function toggleEventList() {
     if (ishidden) {
-      document.getElementById("listbtn").src = "../img/openeye.png";
+      document.getElementById("listbtn").src = "https://media.githubusercontent.com/media/omarieclaire/omarieclaire.github.io/master/play/img/openeye.png";
       let ul = document.createElement("ul");
       for (var i = 0; i < EVENTLIST.length; i++) {
         let event = EVENTLIST[i];
@@ -121,7 +121,7 @@
       eventDiv.appendChild(ul);
 
     } else {
-      document.getElementById("listbtn").src = "../img/closedeye.png";
+      document.getElementById("listbtn").src = "https://media.githubusercontent.com/media/omarieclaire/omarieclaire.github.io/master/play/img/closedeye.png";
       // document.querySelector('#listbtn').innerHTML = 'Hidee';
 
       let eventDiv = document.getElementById("eventList");

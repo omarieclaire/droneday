@@ -28,7 +28,7 @@ gapi.load('client', start);
 function start() {
   // Initialize the client with the API key and necessary scopes
   gapi.client.init({
-    apiKey: 'AIzaSyALlQNEoMXQtNqq4v1S61ZiBg98NScwt6I',
+    apiKey: 'AIzaSyCLF9FeudIZAaCB42tb9paUWdt_0pxf1Ds',
     discoveryDocs: ['https://www.googleapis.com/discovery/v1/apis/drive/v3/rest'],
     clientId: 'common-d2ecf',
     scope: 'https://www.googleapis.com/auth/drive.readonly',

@@ -51,22 +51,6 @@
       var links = EVENTLIST_GROUPED[i].map(event => event.link);
       addDestination(eventCoord, eventName, links);
     }
-
-    
-    // var markerr = WE.marker([51.5, -0.09]).addTo(earth);
-    // markerr.bindPopup("<b>Hello world!</b><br>I am a popup.<br /><span style='font-size:10px;color:#999'>Tip: Another popup is hidden in Cairo..</span>", {maxWidth: 150, closeButton: true}).openPopup();
-
-    // var marker2r = WE.marker([30.058056, 31.228889]).addTo(earth);
-    // marker2r.bindPopup("<b>Cairo</b><br>Yay, you found me!", {maxWidth: 120, closeButton: false});
-
-    // var markerCustom = WE.marker([50, -9], '././img/ ', 100, 24).addTo(earth);
-
-    // earth.setView([51.505, 0], 6);
-
-
-
-
-    // var markerCustom = WE.marker([50, -9], 'https://media.githubusercontent.com/media/omarieclaire/omarieclaire.github.io/master/img/logo-webglearth-white-100.png', 100, 24).addTo(earth);
   }
 
   var before = null;

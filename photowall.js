@@ -21,6 +21,11 @@
 // Http.open("GET", url);
 // Http.send();
 
+// AIzaSyCLF9FeudIZAaCB42tb9paUWdt_0pxf1Ds
+
+// 462000767544-154g7pue76taoqv9qmv6d8ljc2846a4f.apps.googleusercontent.com
+
+// common-d2ecf
 
 
 gapi.load('client', start);
@@ -28,9 +33,9 @@ gapi.load('client', start);
 function start() {
   // Initialize the client with the API key and necessary scopes
   gapi.client.init({
-    apiKey: 'AIzaSyCLF9FeudIZAaCB42tb9paUWdt_0pxf1Ds',
+    apiKey: 'AIzaSyALlQNEoMXQtNqq4v1S61ZiBg98NScwt6I',
     discoveryDocs: ['https://www.googleapis.com/discovery/v1/apis/drive/v3/rest'],
-    clientId: 'common-d2ecf',
+    clientId: '462000767544-154g7pue76taoqv9qmv6d8ljc2846a4f.apps.googleusercontent.com', 
     scope: 'https://www.googleapis.com/auth/drive.readonly',
   }).then(function() {
     // Authenticate the user and load the Drive API client

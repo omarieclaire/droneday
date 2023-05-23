@@ -167,8 +167,12 @@ h3 {
   /* letter-spacing: .3rem; */
   /* color: rgb(101, 86, 127); */
   /* color: rgba(245, 72, 116, .9); */
+  background: linear-gradient(to right, #f05ef0, #f54874, #6928d8, #490f90);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   margin-top: 1.5em;
   margin-bottom: .35em;
+  font-weight: 400;
 }
 
   .underline {

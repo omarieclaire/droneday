@@ -1,81 +1,109 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-<meta charset="UTF-8">
-<!-- helps responsiveness -->
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Press</title>
-<link href="styles.css" rel="stylesheet" type="text/css">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- helps responsiveness -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Press</title>
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <!-- <h1 class="logo">Logo</h1> -->
+      <a href="index.html"
+        ><img
+          src="https://media.githubusercontent.com/media/omarieclaire/omarieclaire.github.io/master/img/logo2.png"
+          alt="circle logo"
+          class="circle-logo"
+      /></a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="events.html">Events</a></li>
+          <li><a href="listen.html">Listen</a></li>
+          <li><a href="play.html">Play</a></li>
+          <li><a href="photos.html">Photos</a></li>
+          <li><a href="videos.html">Videos</a></li>
+          <li><a href="press.html">Press</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
 
+      <label for="nav-toggle" class="nav-toggle-label">
+        <span></span>
+      </label>
+    </header>
 
-</head>
-<body>
+    <section class="home-head-2"></section>
+    <div class="container2">
+      <!-- <section class="home-about"> -->
+      <!-- <div class="home-about-textbox"> -->
 
-	<header>
-		<!-- <h1 class="logo">Logo</h1> -->
-		<a href="index.html"><img src="https://media.githubusercontent.com/media/omarieclaire/omarieclaire.github.io/master/img/logo2.png" alt="circle logo" class="circle-logo"></a>
- 		<input type="checkbox" id="nav-toggle" class="nav-toggle">
-		<nav>
-			<ul>
-				<li><a href="index.html">Home</a></li>
-	      <li><a href="events.html">Events</a></li>
-				<li><a href="listen.html">Listen</a></li>
-				<li><a href="play.html">Play</a></li>
-				<li><a href="photos.html">Photos</a></li>
-				<li><a href="videos.html">Videos</a></li>
-	      <li><a href="press.html">Press</a></li>
-				<li><a href="contact.html">Contact</a></li>
+      <div class="cta"></div>
 
-    	</ul>
-		</nav>
+      <!-- FORM  -->
 
-		<label for="nav-toggle" class="nav-toggle-label">
-    <span></span>
-  	</label>
+      <!-- ERROR: not sending info to google forms -->
+      <div class="wrapper">
+        <div class="contact-form">
+          <iframe
+            name="hidden_iframe"
+            id="hidden_iframe"
+            style="display: none"
+            onload="if(submitted)  {window.location='http://127.0.0.1:5500/index.html';}"
+          ></iframe>
+          <form
+            class="input-fields"
+            id="contact-form"
+            action="https://docs.google.com/forms/d/1CO__cOW7mJwslrA3dR2CkkfoW6tqILFYk6cAStqzAU8/viewform?fbclid=IwAR2WbAxeWyYzypz3dZjAzk0ej22V55ifCiBGglLmFw5NKjWfKEAEzJ8K4vY&edit_requested=true"
+            method="post"
+            target="hidden_iframe"
+            onsubmit="submitted=true;"
+          >
+            <!--<label class="hidden" for="name">Name: </label>-->
+            <input
+              class="input"
+              name="entry.732147347"
+              id="name"
+              type="text"
+              placeholder="Name"
+            />
+            <!--<label class="hidden" for="email">Email: </label>-->
+            <input
+              class="input"
+              name="entry.1414613611"
+              id="email"
+              type="email"
+              placeholder="Email"
+            />
+            <!--<label class="hidden" for="location">Location: </label>-->
+            <input
+              class="input"
+              name="entry.1588699174"
+              id="location"
+              type="text"
+              placeholder="Location"
+            />
+            <!--<label class="hidden" for="link">Link: </label>-->
+            <input
+              class="input"
+              name="entry.471693388"
+              id="link"
+              type="link"
+              placeholder="Link"
+            />
+            <div class="msg">
+              <div class="btn">Submit</div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
 
-	</header>
+    <!-- ERROR: sending info properly, but formating is poor -->
 
-	<section class="home-head-2">
-	</section>
-		<div class="container2">
-			<!-- <section class="home-about"> -->
-				<!-- <div class="home-about-textbox"> -->
-
-	        <div class="cta">
-
-
-
-			</div class="wrapper">
-
-			<!-- FORM  -->
-
-			<!-- ERROR: not sending info to google forms -->
-			<div class="wrapper">
-				<div class="contact-form">
-					<iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted)  {window.location='http://127.0.0.1:5500/index.html';}"></iframe>
-				  <form class="input-fields" id="contact-form" action="https://docs.google.com/forms/d/1CO__cOW7mJwslrA3dR2CkkfoW6tqILFYk6cAStqzAU8/viewform?fbclid=IwAR2WbAxeWyYzypz3dZjAzk0ej22V55ifCiBGglLmFw5NKjWfKEAEzJ8K4vY&edit_requested=true" method="post" target="hidden_iframe" onsubmit="submitted=true;">
-				  	  <!--<label class="hidden" for="name">Name: </label>-->
-					  <input class="input" name="entry.732147347" id="name" type="text" placeholder="Name" />
-					  <!--<label class="hidden" for="email">Email: </label>-->
-					  <input class="input" name="entry.1414613611" id="name" type="email" placeholder="Email" />
-					  <!--<label class="hidden" for="location">Location: </label>-->
-					  <input class="input" name="entry.1588699174" id="location" type="text" placeholder="Location" />
-					  <!--<label class="hidden" for="link">Link: </label>-->
-					  <input class="input" name="entry.471693388" id="link" type="link" placeholder="Link" />
-					  <div class="msg">
-
-						<div class="btn">Submit</div>
-					  </div>
-
-				  </div>
-				</div>
-			  </div>
-
-
-			  <!-- ERROR: sending info properly, but formating is poor -->
-
-
-			<!--
+    <!--
 			<br>
 			<hr>
 	        </div class="contact-form">
@@ -100,11 +128,8 @@
 	  </main>
 
 	-->
-
-	</body>
-
+  </body>
 </html>
-
 
 <!-- Added only to kaeli's branch -->
 <!-- One more line to practice adding and commiting with commit -am -->

@@ -40,7 +40,7 @@ CESIUM_BASE_URL = ('https:' == document.location.protocol ? 'https:' : 'http:') 
   @license
   when.js - https://github.com/cujojs/when
 
-  MIT License (c) copyright B Cavalier & J Hann
+  MIT License (c) copyright B Cavalier &amp; J Hann
 
  * A lightweight CommonJS Promises/A and when() implementation
  * when is part of the cujo.js family of libraries (http://cujojs.com/)

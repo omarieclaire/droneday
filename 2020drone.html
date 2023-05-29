@@ -1,114 +1,241 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="UTF-8" />
+    <!-- helps responsiveness -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>2020 Drone</title>
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+  </head>
 
-<head>
-	<meta charset="UTF-8">
-	<!-- helps responsiveness -->
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>2020 Drone</title>
-	<link href="styles.css" rel="stylesheet" type="text/css">
-</head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <!-- <h1 class="logo">Logo</h1> -->
+        <a href="index.html"
+          ><img
+            src="https://droneday.org/img/logo2.png"
+            alt="circle logo"
+            class="circle-logo"
+        /></a>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="listen.html">Listen</a></li>
+            <li><a href="play.html">Play</a></li>
+            <li><a href="photos.html">Photos</a></li>
+            <li><a href="posters.html">Posters</a></li>
+            <li><a href="videos.html">Videos</a></li>
+            <li><a href="press.html">Press</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
 
-<body>
-	<div class="wrapper">
+        <label for="nav-toggle" class="nav-toggle-label">
+          <span></span>
+        </label>
+      </header>
 
-		<header>
-			<!-- <h1 class="logo">Logo</h1> -->
-			<a href="index.html"><img src="https://droneday.org/img/logo2.png" alt="circle logo" class="circle-logo"></a>
-			<input type="checkbox" id="nav-toggle" class="nav-toggle">
-			<nav>
-				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="events.html">Events</a></li>
-					<li><a href="listen.html">Listen</a></li>
-					<!-- <li><a href="play.html">Play</a></li> -->
-					<li><a href="photos.html">Photos</a></li>
-					<li><a href="videos.html">Videos</a></li>
-					<li><a href="press.html">Press</a></li>
-					<li><a href="contact.html">Contact</a></li>
-				</ul>
-			</nav>
+      <section class="home-head-2"></section>
 
-			<label for="nav-toggle" class="nav-toggle-label">
-				<span></span>
-			</label>
+      <div class="container2">
+        <section class="home-about">
+          <div class="home-about-textbox">
+            <h1>dr(((((((((((o)))))))))))ne</h1>
+            <br />
+            <br />
+            <br />
+            <p>
+              We're looking into online tools/platforms for sonic exploration
+              &amp; bringing drone day celebrations together.
+            </p>
 
-		</header>
+            <h2>Ideas:</h2>
+            <ul>
+              <li>
+                make a <strong>virtual world</strong> where people can wander
+                from drone to drone? (rooms?)
+              </li>
+              <li>
+                make an online <strong>map</strong> with dots - explore the
+                drone world?
+              </li>
+              <li>
+                <strong>chained livestreams</strong> - some love live streaming,
+                others find it lonely
+              </li>
+              <li>
+                make a<strong> compilation site </strong>where droners can
+                submit music, visuals, other
+              </li>
+              <li>
+                make a <strong>mix site</strong> where guests can live-mix the
+                sound?
+              </li>
+              <li>
+                make a site where you can record your voice &amp; it is drawn
+                out into a drone that you can share?
+              </li>
+              <li>
+                <strong>offline drones</strong>, send them to each other through
+                the soil and air?
+              </li>
+            </ul>
 
-		<section class="home-head-2">
+            <h2>Inspirations/Ideas - Online gathering spaces</h2>
+            <ul>
+              <li>
+                <a href="https://laptopsinspace.neesh.de/">Laptops in space</a>
+              </li>
+              <li>
+                <a href="https://clubquarantaene.stream/">Clubquarantine</a>
+                dance party online
+              </li>
+              <li>
+                <a href="https://likelike.glitch.me">Likelike</a> explore an
+                online gallery and interact with others
+              </li>
+              <li>
+                <a href="https://github.com/capnmidnight/Calla">Calla</a> move
+                closer to people to hear them and farther away to not hear them.
+                WIP
+              </li>
+              <li>
+                <a href="https://theonline.town/">Online Town</a> separate
+                conversations in parallel: walk in, out and around
+              </li>
+              <li>
+                <a href="https://www.habboon.pw/">Habbo/Habboon</a> virtual
+                world
+              </li>
+              <li>
+                <a
+                  href="https://www.theverge.com/2020/4/15/21219197/minecraft-american-football-concert-anamanaguchi-openpit-fortnite-festivals"
+                  >AF in Minecraft</a
+                >
+              </li>
+              <li>
+                <a href="https://www.instagram.com/clubquarantine"
+                  >cLuв Ɋ&upsilon;&Atilde;RaNTĮŇE</a
+                >
+                queer instagram dance party, moving "spotlight"
+              </li>
+              <li>
+                (Defunct)
+                <a href="https://wizmud.fandom.com/wiki/Homepage">WIZ MUD</a
+                >&nbsp; and a
+                <a
+                  href="https://glitch.com/edit/#!/zone-server?path=README.md%3A1%3A0"
+                  >re-build</a
+                >
+              </li>
+            </ul>
+            <h2>Inspirations/Ideas - Browser instruments, toys and tools</h2>
+            <ul>
+              <li>
+                <a href="http://remoterituals.space">Remote rituals</a> -
+                In-browser instrument (multi-user real time)
+              </li>
+              <li>
+                <a href="https://plink.in/">Plink</a> playful musical collab
+              </li>
+              <li>
+                <a href="https://noisli.com">Noisli</a> &amp;
+                <a href="https://noises.online">noises</a> &amp;
+                <a href="https://mynoise.net">mynoise</a> - custom white noise
+                &amp; calming sounds
+              </li>
+              <li>
+                <a href="https://intramuros.mcmaster.ca/">Estuary</a> -
+                collaborative live coding: sound, music, and visuals
+              </li>
+              <li>
+                <a href="https://musiclab.chromeexperiments.com"
+                  >Chrome Experiments</a
+                >
+                - like making your voice
+                <a href="https://musiclab.chromeexperiments.com/Spectrogram/"
+                  >visible</a
+                >
+              </li>
+              <li>
+                <a href="http://typedrummer.com">Typedrummer</a> - share beats
+                by sharing a string of text&nbsp;
+              </li>
+              <li>
+                <a
+                  href="https://www.virtualdrumming.com/drums/online-virtual-games/online-virtual-games-drums.html"
+                  >Virtual Drumming </a
+                >- play a virtual kit
+              </li>
+              <li>
+                <a href="https://www.newrafael.com/websites/">Webart</a> -
+                simple sound and movement&nbsp;
+              </li>
+              <li>
+                <a href="http://sampulator.com">Sampulator</a> - play and record
+                sample-based music online
+              </li>
+              <li>
+                <a href="http://generative.fm">Generative.fm</a> - Ambient
+                Generative Music&nbsp;
+              </li>
+              <li>
+                <a href="https://patatap.com/">Patatap</a> &amp;
+                <a href="https://typatone.com/">Typatone</a> - typing to
+                generate music and art
+              </li>
+              <li>
+                <a href="https://www.bram.org/confort/compli.htm">Compli</a> -
+                french compliments read aloud to you
+              </li>
+              <li><a href="https://www.culturehub.org/livelab">LiveLab</a></li>
+              <li><a href="https://dood.al/pinktrombone/">Pink Trombone</a></li>
+              <li>
+                <a href="http://radio.garden/visit/blanc-sablon/qgKB3ANc"
+                  >Radio Garden</a
+                >
+                explore live radio around the world
+              </li>
+              <li>
+                <a
+                  href="https://earth.nullschool.net/#current/wind/surface/level/orthographic=-222.91,-7.14,434"
+                  >Wind on Earth</a
+                >
+                another interesting inspiration for maps
+              </li>
+              <li>
+                <a href="http://atlas-of-forms.net">Atlas of Forms</a> - An
+                audio version of this?&nbsp;
+              </li>
+              <li><a href="https://you.dj/">YOU.DJ</a> mix music online</li>
+              <li>
+                <a href="http://onlinetonegenerator.com/"
+                  >Online Tone Generator</a
+                >
+              </li>
+              <li>
+                <a href="https://adamferriss.com/gush/">Gush</a> camera-based
+                visuals
+              </li>
+            </ul>
 
-		</section>
-
-		<div class="container2">
-			<section class="home-about">
-				<div class="home-about-textbox">
-					<h1>dr(((((((((((o)))))))))))ne</h1>
-					<br>
-					<br>
-					<br>
-					<p>We're looking into online tools/platforms for sonic exploration &amp; bringing drone day celebrations together.</p>
-
-					<h2>Ideas:</h2>
-					<ul>
-						<li>make a <strong>virtual world</strong> where people can wander from drone to drone? (rooms?)</li>
-						<li>make an online <strong>map</strong> with dots - explore the drone world?</li>
-						<li><strong>chained livestreams</strong> - some love live streaming, others find it lonely</li>
-						<li>make a<strong> compilation site </strong>where droners can submit music, visuals, other</li>
-						<li>make a <strong>mix site</strong> where guests can live-mix the sound?</li>
-						<li>make a site where you can record your voice &amp; it is drawn out into a drone that you can share?</li>
-						<li><strong>offline drones</strong>, send them to each other through the soil and air?</li>
-					</ul>
-				
-					<h2>Inspirations/Ideas - Online gathering spaces</h2>
-					<ul>
-						<li><a href="https://laptopsinspace.neesh.de/">Laptops in space</a></li>
-						<li><a href="https://clubquarantaene.stream/">Clubquarantine</a> dance party online</li>
-						<li><a href="https://likelike.glitch.me">Likelike</a> explore an online gallery and interact with others</li>
-						<li><a href="https://github.com/capnmidnight/Calla">Calla</a> move closer to people to hear them and farther away to not hear them. WIP</li>
-						<li><a href="https://theonline.town/">Online Town</a> separate conversations in parallel: walk in, out and around</li>
-						<li><a href="https://www.habboon.pw/">Habbo/Habboon</a> virtual world</li>
-						<li><a href="https://www.theverge.com/2020/4/15/21219197/minecraft-american-football-concert-anamanaguchi-openpit-fortnite-festivals">AF in Minecraft</a></li>
-						<li><a href="https://www.instagram.com/clubquarantine">cLuв Ɋ&upsilon;&Atilde;RaNTĮŇE</a> queer instagram dance party, moving "spotlight"</li>
-						<li>(Defunct) <a href="https://wizmud.fandom.com/wiki/Homepage">WIZ MUD</a>&nbsp; and a <a href="https://glitch.com/edit/#!/zone-server?path=README.md%3A1%3A0">re-build</a></li>
-					</ul>
-					<h2>Inspirations/Ideas - Browser instruments, toys and tools</h2>
-					<ul>
-
-						<li><a href="http://remoterituals.space">Remote rituals</a> - In-browser instrument (multi-user real time)</li>
-						<li><a href="https://plink.in/">Plink</a> playful musical collab</li>
-						<li><a href="https://noisli.com">Noisli</a> &amp; <a href="https://noises.online">noises</a> &amp; <a href="https://mynoise.net">mynoise</a> - custom white noise &amp; calming sounds</li>
-						<li><a href="https://intramuros.mcmaster.ca/">Estuary</a> - collaborative live coding: sound, music, and visuals</li>
-						<li><a href="https://musiclab.chromeexperiments.com">Chrome Experiments</a> - like making your voice <a href="https://musiclab.chromeexperiments.com/Spectrogram/">visible</a></li>
-						<li><a href="http://typedrummer.com">Typedrummer</a> - share beats by sharing a string of text&nbsp;</li>
-						<li><a href="https://www.virtualdrumming.com/drums/online-virtual-games/online-virtual-games-drums.html">Virtual Drumming </a>- play a virtual kit</li>
-						<li><a href="https://www.newrafael.com/websites/">Webart</a> - simple sound and movement&nbsp;</li>
-						<li><a href="http://sampulator.com">Sampulator</a> - play and record sample-based music online</li>
-						<li><a href="http://generative.fm">Generative.fm</a> - Ambient Generative Music&nbsp;</li>
-						<li><a href="https://patatap.com/">Patatap</a> &amp; <a href="https://typatone.com/">Typatone</a> - typing to generate music and art</li>
-						<li><a href="https://www.bram.org/confort/compli.htm">Compli</a> - french compliments read aloud to you</li>
-						<li><a href="https://www.culturehub.org/livelab">LiveLab</a></li>
-						<li><a href="https://dood.al/pinktrombone/">Pink Trombone</a></li>
-						<li><a href="http://radio.garden/visit/blanc-sablon/qgKB3ANc">Radio Garden</a> explore live radio around the world</li>
-						<li><a href="https://earth.nullschool.net/#current/wind/surface/level/orthographic=-222.91,-7.14,434">Wind on Earth</a> another interesting inspiration for maps</li>
-						<li><a href="http://atlas-of-forms.net">Atlas of Forms</a> - An audio version of this?&nbsp;</li>
-						<li><a href="https://you.dj/">YOU.DJ</a> mix music online</li>
-						<li><a href="http://onlinetonegenerator.com/">Online Tone Generator</a></li>
-						<li><a href="https://adamferriss.com/gush/">Gush</a> camera-based visuals</li>
-					</ul>
-
-					<p>If you made it this far and want to help make something together online (this doesn't replace local drone day celebrations - it compliments them) send an email and let us know. We'd love help with programming, design, writing, and sound.
-					</p>
-					<p><a href="mailto:marie@weirdcanada.com" target="_blank">marie@weirdcanada.com</a></p>
-
-
-			
-				</div>
-
-			</section>
-		</div>
-
-	</div>
-
-</body>
-
+            <p>
+              If you made it this far and want to help make something together
+              online (this doesn't replace local drone day celebrations - it
+              compliments them) send an email and let us know. We'd love help
+              with programming, design, writing, and sound.
+            </p>
+            <p>
+              <a href="mailto:marie@weirdcanada.com" target="_blank"
+                >marie@weirdcanada.com</a
+              >
+            </p>
+          </div>
+        </section>
+      </div>
+    </div>
+  </body>
 </html>

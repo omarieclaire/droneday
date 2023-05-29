@@ -1,83 +1,93 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
+  <head>
+    <meta charset="UTF-8" />
+    <!-- helps responsiveness -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Events</title>
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <script src="js/eventlist.js" type="text/javascript"></script>
 
-<head>
-        <meta charset="UTF-8">
-        <!-- helps responsiveness -->
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Events</title>
-        <link href="styles.css" rel="stylesheet" type="text/css">
-        <script src="js/eventlist.js" type="text/javascript"></script>
+    <meta name="author" content="Marie Claire LeBlanc Flanagan" />
+    <meta name="description" content="Drone Day Events" />
+    <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
 
-        <meta name="author" content="Marie Claire LeBlanc Flanagan">
-        <meta name="description" content="Drone Day Events">
-        <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
+    <meta property="og:title" content="Drone Day Events" />
+    <meta
+      property="og:description"
+      content="Events around the world for Drone Day"
+    />
+    <meta property="og:image" content="img/2020drone.png" />
+    <meta property="og:url" content="https://droneday.org/events/" />
+    <meta property="og:type" content="article" />
 
-        <meta property="og:title" content="Drone Day Events">
-        <meta property="og:description" content="Events around the world for Drone Day">
-        <meta property="og:image" content="img/2020drone.png">
-        <meta property="og:url" content="https://droneday.org/events/">
-        <meta property="og:type" content="article">
+    <meta name="twitter:title" content="Drone Day Events" />
+    <meta
+      name="twitter:description"
+      content="Events around the world for Drone Day"
+    />
+    <meta name="twitter:image" content="img/2020drone.png" />
+    <meta name="twitter:card" content="summary_large_image" />
+  </head>
 
+  <body>
+    <div class="wrapper">
+      <header>
+        <a href="index.html"
+          ><img
+            src="https://droneday.org/img/logo2.png"
+            alt="circle logo"
+            class="circle-logo"
+        /></a>
+        <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="events.html">Events</a></li>
+            <li><a href="listen.html">Listen</a></li>
+            <li><a href="play.html">Play</a></li>
+            <li><a href="photos.html">Photos</a></li>
+            <li><a href="posters.html">Posters</a></li>
+            <li><a href="videos.html">Videos</a></li>
+            <li><a href="press.html">Press</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
 
-        <meta name="twitter:title" content="Drone Day Events">
-        <meta name="twitter:description" content="Events around the world for Drone Day">
-        <meta name="twitter:image" content="img/2020drone.png">
-        <meta name="twitter:card" content="summary_large_image">
-</head>
+        <label for="nav-toggle" class="nav-toggle-label">
+          <span></span>
+        </label>
+      </header>
+      <section class="home-head-2"></section>
 
-<body>
-        <div class="wrapper">
+      <div class="container2">
+        <section class="home-about">
+          <div class="home-about-textbox">
+            <h1>dr((((((o))))))ne jam</h1>
+            <h2>
+              Making experimental games, toys, or playful things related to the
+              idea of sustained tones. As long as they emerge from the feeling
+              of drone, whatever that means to you.
+            </h2>
+            <a href="https://itch.io/jam/drone">Explore Drone Jam</a>
+          </div>
+        </section>
+      </div>
+    </div>
 
-                <header>
-                        <a href="index.html"><img
-                                        src="https://droneday.org/img/logo2.png"
-                                        alt="circle logo" class="circle-logo"></a>
-                        <input type="checkbox" id="nav-toggle" class="nav-toggle">
-                        <nav>
-                                <ul>
-                                        <li><a href="index.html">Home</a></li>
-                                        <li><a href="events.html">Events</a></li>
-                                        <li><a href="listen.html">Listen</a></li>
-                                        <li><a href="play.html">Play</a></li>
-                                        <li><a href="photos.html">Photos</a></li>
-                                        <li><a href="videos.html">Videos</a></li>
-
-                                        <li><a href="press.html">Press</a></li>
-                                        <li><a href="contact.html">Contact</a></li>
-
-                                </ul>
-                        </nav>
-
-                        <label for="nav-toggle" class="nav-toggle-label">
-                                <span></span>
-                        </label>
-
-                </header>
-                <section class="home-head-2">
-                </section>
-
-                <div class="container2">
-                        <section class="home-about">
-                                <div class="home-about-textbox">
-                                        <h1>dr((((((o))))))ne jam</h1>
-                                        <h2>Making experimental games, toys, or playful things related to the idea of sustained tones. As
-                                            long as they emerge from the feeling of drone, whatever that means to you.</h2>
-                                        <a href="https://itch.io/jam/drone">Explore Drone Jam</a>
-                                </div>
-                        </section>
-                </div>
-
-        </div>
-
-        <script type="text/javascript">
-                var eventdiv = document.getElementById("events");
-                var allEvents = "";
-                for (var i = 0; i < EVENTLIST.length; i++) {
-                        allEvents = allEvents + '<li>' + EVENTLIST[i].name + ':: <a href="' + EVENTLIST[i].link + '" target="_blank">Event</a></li>'
-                }
-                eventdiv.innerHTML = allEvents;
-
-        </script>
-</body>
+    <script type="text/javascript">
+      var eventdiv = document.getElementById("events");
+      var allEvents = "";
+      for (var i = 0; i < EVENTLIST.length; i++) {
+        allEvents =
+          allEvents +
+          "<li>" +
+          EVENTLIST[i].name +
+          ':: <a href="' +
+          EVENTLIST[i].link +
+          '" target="_blank">Event</a></li>';
+      }
+      eventdiv.innerHTML = allEvents;
+    </script>
+  </body>
 </html>

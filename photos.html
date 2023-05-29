@@ -8,6 +8,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Photos</title>
   <link href="styles.css" rel="stylesheet" type="text/css">
+  <style>
+    .photo-wall {
+      display: flex;
+      flex-wrap: wrap;
+      margin: -5px; /* Adjust this value to control the gap between images */
+    }
+    
+    .photo-wall img {
+      flex: 1 0 200px; /* Adjust this value to control the minimum width of each image */
+      height: auto;
+      margin: 5px; /* Adjust this value to control the gap between images */
+      object-fit: cover;
+    }
+  </style>
 </head>
 <body>
 
@@ -73,6 +87,41 @@
         <a class="button button-dark" href="mailto:%20marie@weirdcanada.com" target="_blank">Send Photos</a>
       </div>
     </section>
+
+    
+    <div class="photo-wall" id="photoWall">
+    </div>
   </div>
+
+
+  <script>
+    const imagesFolder = "img/photos";
+   
+    // Get a reference to the photoWall container
+    const photoWall = document.getElementById("photoWall");
+
+    // Fetch the images from the specified folder
+    fetch(imagesFolder)
+      .then(response => response.text())
+      .then(html => {
+        // Create a temporary div element to parse the HTML response
+        const tempDiv = document.createElement("div");
+        tempDiv.innerHTML = html;
+
+        // Get all the <a> elements representing image files
+        const imageLinks = tempDiv.querySelectorAll("a[href$='.jpg'], a[href$='.png'], a[href$='.gif']");
+
+        // Create <img> elements for each image and append them to the photoWall container
+        imageLinks.forEach(link => {
+          const imgUrl = imagesFolder + decodeURIComponent(link.getAttribute("href"));
+          const imgElement = document.createElement("img");
+          imgElement.src = imgUrl;
+          imgElement.alt = link.innerText;
+          photoWall.appendChild(imgElement);
+        });
+      })
+      .catch(error => console.error(error));
+  </script>
+
 </body>
 </html>

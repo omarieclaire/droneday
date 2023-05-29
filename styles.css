@@ -783,21 +783,22 @@ form .largetextarea {
 }
 
 figure {
+  flex: 1 0 200px; /* Allow figures to grow and shrink, with a minimum width of 200px */
   display: flex;
   flex-direction: column;
+  align-items: center;
+  max-width: 100%; /* Limit the maximum width of figures */
+  /* background-color: #f54874; */
+
 }
 
 
 .playbuttondiv{
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-self: center;
-  align-items: center;
-  justify-content: center;
-  font-size: 4rem;
-  margin-top: 1rem;
   flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1rem; /* Add gap between figures */
 }
 
 
@@ -808,23 +809,18 @@ figure {
 }
 
 .playbutton {
-  /* flex-grow: 1;
-  flex-shrink: 1;
-  flex-basis: 10%; */
-  
-  padding: .5rem;
-  color: white;
-  /* height: 8rem; */
-  /* width: 100%; */
+  width: 100%;
+  height: auto;
+  object-fit: contain;
   background-color: #f54874;
-  /* outline: 5px double #808080; */
+  max-height: 10rem;
+  max-width: 30rem;
+
 }
 
 @media screen and (min-width: 981px) {
   #playbutton{
-    /* height: 6rem; */
-    /* width: 100%; */
-    margin: 0;
+    /* margin: 0; */
   }
 }
 

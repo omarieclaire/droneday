@@ -113,7 +113,7 @@
 
         // Create <img> elements for each image and append them to the photoWall container
         imageLinks.forEach(link => {
-          const imgUrl = imagesFolder + decodeURIComponent(link.getAttribute("href"));
+          const imgUrl = decodeURIComponent(link.getAttribute("href"));
           const imgElement = document.createElement("img");
           imgElement.src = imgUrl;
           imgElement.alt = link.innerText;

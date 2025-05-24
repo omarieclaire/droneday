@@ -320,6 +320,11 @@ EVENTLIST = [
     link: "https://www.zeffy.com/en-CA/o/tickets/formsV2/new?formCategory=Event&ticketingId=891f15dd-d237-4984-"
   },
   {
+    name: "Vancouver, Canada (Instagram)",
+    coord: [49.2827, -123.1207],
+    link: "https://www.instagram.com/p/DJkNIc3zKwx/"
+  },
+  {
     name: "Victoria, Canada",
     coord: [48.4284, -123.3656],
     link: "https://www.facebook.com/events/958453519143557"
@@ -344,7 +349,7 @@ EVENTLIST = [
     coord: [44.1194, 15.2314],
     link: "https://copor.bandcamp.com/"
   }
-]; 
+];
 
 
 // EVENTLIST = [

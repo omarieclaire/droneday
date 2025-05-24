@@ -20,6 +20,11 @@ EVENTLIST = [
     link: "https://cottonrust.me"
   },
   {
+    name: "Berlin, Germany (Cashmere Radio)",
+    coord: [52.5200, 13.4050],
+    link: "https://cashmereradio.com/"
+  },
+  {
     name: "Borovsk, Russia",
     coord: [55.2069, 36.4825],
     link: "https://youtube.com/live/zRaUy773_oA"
@@ -60,9 +65,19 @@ EVENTLIST = [
     link: "https://www.instagram.com/p/DJ10YVwg6S7/"
   },
   {
+    name: "Cleveland, United States",
+    coord: [41.4993, -81.6944],
+    link: ""
+  },
+  {
     name: "Cornwall, Canada",
     coord: [45.0212, -74.7303],
     link: "https://www.facebook.com/events/1456431205530823"
+  },
+  {
+    name: "Cornwall, Canada (Sterling)",
+    coord: [45.0212, -74.7303],
+    link: "https://www.facebook.com/share/1CBRVjVF26/"
   },
   {
     name: "Donostia / San Sebastián, Spain",
@@ -73,6 +88,11 @@ EVENTLIST = [
     name: "Dresden, Germany",
     coord: [51.0504, 13.7373],
     link: ""
+  },
+  {
+    name: "Dresden, Germany (noisio)",
+    coord: [51.0504, 13.7373],
+    link: "https://chaos.social/@noisio/114556613566850601"
   },
   {
     name: "Edmonton, Canada",
@@ -93,6 +113,11 @@ EVENTLIST = [
     name: "Everywhere, Earth",
     coord: [0.0000, 0.0000],
     link: "https://www.twitch.tv/earthmodularsociety"
+  },
+  {
+    name: "Falls Church, USA",
+    coord: [38.8823, -77.1711],
+    link: "https://www.youtube.com/live/zAHZ5H5IyRA?si=Fvz9y3JSA0TgdxHQ"
   },
   {
     name: "Firenze, Italy",
@@ -295,9 +320,19 @@ EVENTLIST = [
     link: "https://www.zeffy.com/en-CA/o/tickets/formsV2/new?formCategory=Event&ticketingId=891f15dd-d237-4984-"
   },
   {
+    name: "Victoria, Canada",
+    coord: [48.4284, -123.3656],
+    link: "https://www.facebook.com/events/958453519143557"
+  },
+  {
     name: "Waasmunster, Belgium",
     coord: [51.1097, 4.0806],
     link: "https://youtube.com/live/YhfKPhmZVXk?feature=share"
+  },
+  {
+    name: "Warrnambool, Australia",
+    coord: [-38.3847, 142.4863],
+    link: ""
   },
   {
     name: "Waterloo, Canada",
@@ -309,7 +344,7 @@ EVENTLIST = [
     coord: [44.1194, 15.2314],
     link: "https://copor.bandcamp.com/"
   }
-];
+]; 
 
 
 // EVENTLIST = [
